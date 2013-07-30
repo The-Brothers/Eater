@@ -16,6 +16,6 @@ void Center::draw(){
 	SDL_BlitSurface(this->image,NULL,SDL_GetVideoSurface(),&this->box);
 }
 
-void Center::update(){
+void Center::update(Uint32 delta){
 
 }

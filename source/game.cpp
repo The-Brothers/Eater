@@ -21,6 +21,7 @@ Game::Game(){
 
 	//Game stuff
 	this->center = new Center();
+	this->player = new Player();
 }
 
 Game::~Game(){
@@ -31,6 +32,8 @@ Game::~Game(){
 
 void Game::run(){
 
+	this->delta.start();
+	
 	while(this->running){
 		this->start = SDL_GetTicks();
 		//Events
@@ -41,6 +44,12 @@ void Game::run(){
 				break;
 				case SDL_KEYDOWN:
                     switch (events.key.keysym.sym) {
+                    	case SDLK_RIGHT:
+                    		this->player->move(true);
+                    	break;
+                    	case SDLK_LEFT:
+                    		this->player->move(false);
+                    	break;
                     	case SDLK_ESCAPE:
                         	this->running = false;
                         break;
@@ -49,9 +58,13 @@ void Game::run(){
 			}
 		}
 		//Logic
-		
+		this->player->update(delta.get_ticks());
+
+		this->delta.start();
 		//Render
+		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00));
 		this->center->draw();
+		this->player->draw();
 		SDL_Flip(screen);
 		
 		//FPS control

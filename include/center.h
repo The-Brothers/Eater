@@ -13,7 +13,7 @@ public:
 	~Center();
 
 	void draw();
-	void update();
+	void update(Uint32 delta);
 
 };
 

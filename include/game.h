@@ -4,8 +4,10 @@
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
 #include "SDL/SDL_ttf.h"
+#include "timer.h"
 
 #include "center.h"
+#include "player.h"
 
 #define SCREEN_W 400
 #define SCREEN_H 400
@@ -18,6 +20,7 @@ class Game{
 	SDL_Surface* screen; //The game screen
 	SDL_Event events; //The input events
 
+	Timer delta;
 	Uint32 start; //FPS control
 
 	bool running; //Sets the game running
@@ -25,6 +28,7 @@ class Game{
 
 	//Game stuff
 	Center* center;
+	Player* player;
 public:
 	Game();
 	~Game();
