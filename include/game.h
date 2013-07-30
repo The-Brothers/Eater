@@ -9,6 +9,7 @@
 #include "center.h"
 #include "player.h"
 #include "stream.h"
+#include "enemy.h"
 
 #define SCREEN_W 400
 #define SCREEN_H 400

@@ -38,7 +38,7 @@ Game::~Game(){
 void Game::run(){
 
 	this->delta.start();
-	
+
 	while(this->running){
 		this->start = SDL_GetTicks();
 		//Events
@@ -49,6 +49,23 @@ void Game::run(){
 				break;
 				case SDL_KEYDOWN:
                     switch (events.key.keysym.sym) {
+                    	
+                    	case SDLK_1:
+                    		this->stream1->insert_enemy();
+                    	break;
+
+                    	case SDLK_2:
+                    		this->stream2->insert_enemy();
+                    	break;
+
+                    	case SDLK_3:
+                    		this->stream3->insert_enemy();
+                    	break;
+
+                    	case SDLK_4:
+                    		this->stream4->insert_enemy();
+                    	break;
+
                     	case SDLK_RIGHT:
                     		this->player->move(RIGHT);
                     	break;
@@ -64,16 +81,22 @@ void Game::run(){
 		}
 		//Logic
 		this->player->update(delta.get_ticks());
+		this->stream1->update(delta.get_ticks());
+		this->stream2->update(delta.get_ticks());
+		this->stream3->update(delta.get_ticks());
+		this->stream4->update(delta.get_ticks());
 
 		this->delta.start();
 		//Render
 		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00)); //paints everything with black
 		this->center->draw();
 		this->player->draw();
+
 		this->stream1->draw();
 		this->stream2->draw();
 		this->stream3->draw();
 		this->stream4->draw();
+
 		SDL_Flip(screen);
 		
 		//FPS control
