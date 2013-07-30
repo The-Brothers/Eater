@@ -11,7 +11,7 @@ Player::Player(){
 }
 
 Player::~Player(){
-
+	SDL_FreeSurface(this->image);
 }
 
 void Player::draw(){

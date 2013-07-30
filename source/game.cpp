@@ -22,6 +22,11 @@ Game::Game(){
 	//Game stuff
 	this->center = new Center();
 	this->player = new Player();
+
+	this->stream1 = new Stream(1);
+	this->stream2 = new Stream(2);
+	this->stream3 = new Stream(3);
+	this->stream4 = new Stream(4);
 }
 
 Game::~Game(){
@@ -45,10 +50,10 @@ void Game::run(){
 				case SDL_KEYDOWN:
                     switch (events.key.keysym.sym) {
                     	case SDLK_RIGHT:
-                    		this->player->move(true);
+                    		this->player->move(RIGHT);
                     	break;
                     	case SDLK_LEFT:
-                    		this->player->move(false);
+                    		this->player->move(LEFT);
                     	break;
                     	case SDLK_ESCAPE:
                         	this->running = false;
@@ -62,9 +67,13 @@ void Game::run(){
 
 		this->delta.start();
 		//Render
-		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00));
+		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00)); //paints everything with black
 		this->center->draw();
 		this->player->draw();
+		this->stream1->draw();
+		this->stream2->draw();
+		this->stream3->draw();
+		this->stream4->draw();
 		SDL_Flip(screen);
 		
 		//FPS control

@@ -9,7 +9,7 @@ Center::Center(){
 }
 
 Center::~Center(){
-
+	SDL_FreeSurface(this->image);
 }
 
 void Center::draw(){

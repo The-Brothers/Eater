@@ -8,12 +8,16 @@
 
 #include "center.h"
 #include "player.h"
+#include "stream.h"
 
 #define SCREEN_W 400
 #define SCREEN_H 400
 #define SCREEN_BPP 32
 
 #define FPS 30
+
+#define RIGHT true
+#define LEFT false
 
 class Game{
 
@@ -29,6 +33,10 @@ class Game{
 	//Game stuff
 	Center* center;
 	Player* player;
+	Stream* stream1;
+	Stream* stream2;
+	Stream* stream3;
+	Stream* stream4;
 public:
 	Game();
 	~Game();
