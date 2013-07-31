@@ -5,11 +5,11 @@
 
 class Player{
 	SDL_Surface* image;
-	SDL_Rect box;
 	
 
 	int pos;
 public:
+	SDL_Rect box;
 	Player();
 	~Player();
 

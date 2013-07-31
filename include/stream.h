@@ -13,11 +13,11 @@ class Stream{
 	SDL_Surface* image;
 	SDL_Rect box;
 
-	vector<Enemy *> enemies;
 
 	int id;
 
 public:
+	vector<Enemy *> enemies;
 	Stream(int id);
 	~Stream();
 

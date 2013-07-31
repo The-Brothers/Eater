@@ -7,7 +7,6 @@
 class Enemy{
 
 	SDL_Surface* image;
-	SDL_Rect box;
 
 	float x, y;
 
@@ -17,6 +16,7 @@ class Enemy{
 	float speed;
 
 public:
+	SDL_Rect box;
 	Enemy(int origin);
 	~Enemy();
 

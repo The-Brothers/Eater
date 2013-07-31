@@ -80,10 +80,23 @@ void Game::run(){
                     }
 			}
 		}
-		
+
 		insert_enemies();
-		
+
+		/* bugged colision
+		if (!stream1->enemies.empty()){
+			if(((this->player->box.x<stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
+			   ((this->player->box.x+this->player->box.w)<stream1->enemies.at(0)->box.x)) &&
+			   (this->player->box.y<stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
+			   (this->player->box.y+this->player->box.h)<stream1->enemies.at(0)->box.y))){
+				stream1->enemies.erase(stream1->enemies.begin());
+			}		
+		}*/
+
+		//}
+
 		//Logic
+
 		this->player->update(delta.get_ticks());
 		this->stream1->update(delta.get_ticks());
 		this->stream2->update(delta.get_ticks());
