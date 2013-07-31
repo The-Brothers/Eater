@@ -6,9 +6,9 @@
 
 class Center{
 	SDL_Surface* image;
-	SDL_Rect box;
 
 public:
+	SDL_Rect box;
 	Center();
 	~Center();
 

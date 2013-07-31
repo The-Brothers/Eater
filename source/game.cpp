@@ -119,6 +119,43 @@ void Game::run(){
 				stream4->enemies.erase(stream4->enemies.begin());
 			}		
 		}
+ 
+ 		//center colision stream1
+		if (!stream1->enemies.empty()){
+			if(!((this->center->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
+			   ((this->center->box.x+this->center->box.w)<stream1->enemies.at(0)->box.x)) ||
+			   (this->center->box.y>stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
+			   (this->center->box.y+this->center->box.h)<stream1->enemies.at(0)->box.y))){
+				stream1->enemies.erase(stream1->enemies.begin());
+			}		
+		}
+		//center colision stream2
+		if (!stream2->enemies.empty()){
+			if(!((this->center->box.x>stream2->enemies.at(0)->box.x+stream2->enemies.at(0)->box.w ||
+			   ((this->center->box.x+this->center->box.w)<stream2->enemies.at(0)->box.x)) ||
+			   (this->center->box.y>stream2->enemies.at(0)->box.y+stream2->enemies.at(0)->box.h ||
+			   (this->center->box.y+this->center->box.h)<stream2->enemies.at(0)->box.y))){
+				stream2->enemies.erase(stream2->enemies.begin());
+			}		
+		}
+		//center colision stream3
+		if (!stream3->enemies.empty()){
+			if(!((this->center->box.x>stream3->enemies.at(0)->box.x+stream3->enemies.at(0)->box.w ||
+			   ((this->center->box.x+this->center->box.w)<stream3->enemies.at(0)->box.x)) ||
+			   (this->center->box.y>stream3->enemies.at(0)->box.y+stream3->enemies.at(0)->box.h ||
+			   (this->center->box.y+this->center->box.h)<stream3->enemies.at(0)->box.y))){
+				stream3->enemies.erase(stream3->enemies.begin());
+			}		
+		}
+		//center colision stream4
+		if (!stream4->enemies.empty()){
+			if(!((this->center->box.x>stream4->enemies.at(0)->box.x+stream4->enemies.at(0)->box.w ||
+			   ((this->center->box.x+this->center->box.w)<stream4->enemies.at(0)->box.x)) ||
+			   (this->center->box.y>stream4->enemies.at(0)->box.y+stream4->enemies.at(0)->box.h ||
+			   (this->center->box.y+this->center->box.h)<stream4->enemies.at(0)->box.y))){
+				stream4->enemies.erase(stream4->enemies.begin());
+			}		
+		}
 
 		
 		//Logic
