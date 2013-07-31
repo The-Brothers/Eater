@@ -30,6 +30,7 @@ class Game{
 
 	bool running; //Sets the game running
 
+ 	int delayticks;
 
 	//Game stuff
 	Center* center;
@@ -42,6 +43,7 @@ public:
 	Game();
 	~Game();
 	void run();
+	void insert_enemies();
 };
 
 #endif

@@ -8,6 +8,7 @@
 using namespace std;
 
 Game::Game(){
+	srand (time(NULL));
 	if(SDL_Init(SDL_INIT_EVERYTHING) == -1)
 		cout << "SDL not initialized." << endl;
 	
@@ -27,6 +28,8 @@ Game::Game(){
 	this->stream2 = new Stream(2);
 	this->stream3 = new Stream(3);
 	this->stream4 = new Stream(4);
+
+	this->delayticks=0;
 }
 
 Game::~Game(){
@@ -38,7 +41,6 @@ Game::~Game(){
 void Game::run(){
 
 	this->delta.start();
-
 	while(this->running){
 		this->start = SDL_GetTicks();
 		//Events
@@ -48,8 +50,7 @@ void Game::run(){
 					this->running = false;
 				break;
 				case SDL_KEYDOWN:
-                    switch (events.key.keysym.sym) {
-                    	
+                    switch (events.key.keysym.sym) {                    	
                     	case SDLK_1:
                     		this->stream1->insert_enemy();
                     	break;
@@ -79,6 +80,9 @@ void Game::run(){
                     }
 			}
 		}
+		
+		insert_enemies();
+		
 		//Logic
 		this->player->update(delta.get_ticks());
 		this->stream1->update(delta.get_ticks());
@@ -103,4 +107,29 @@ void Game::run(){
 		if(1000/FPS > SDL_GetTicks() - this->start)
 			SDL_Delay(1000/FPS - (SDL_GetTicks() - this->start));
 	}
+}
+
+void Game::insert_enemies(){
+	this->delayticks+=delta.get_ticks();
+		if (this->delayticks>1000){
+			this->delayticks-=1000;
+			int random_stream = rand() % 4 + 1;
+			switch(random_stream){
+		       	case 1:
+		    		this->stream1->insert_enemy();
+		    	break;
+
+		    	case 2:
+		    		this->stream2->insert_enemy();
+		    	break;
+
+		    	case 3:
+		    		this->stream3->insert_enemy();
+		    	break;
+
+		    	case 4:
+		    		this->stream4->insert_enemy();
+		    	break;
+			}
+		}
 }
