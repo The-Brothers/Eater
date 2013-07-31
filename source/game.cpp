@@ -83,18 +83,44 @@ void Game::run(){
 
 		insert_enemies();
 
-		/* bugged colision
+	    //player colision stream1
 		if (!stream1->enemies.empty()){
-			if(((this->player->box.x<stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
-			   ((this->player->box.x+this->player->box.w)<stream1->enemies.at(0)->box.x)) &&
-			   (this->player->box.y<stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
+			if(!((this->player->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
+			   ((this->player->box.x+this->player->box.w)<stream1->enemies.at(0)->box.x)) ||
+			   (this->player->box.y>stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
 			   (this->player->box.y+this->player->box.h)<stream1->enemies.at(0)->box.y))){
 				stream1->enemies.erase(stream1->enemies.begin());
 			}		
-		}*/
+		}
+		//player colision stream2
+		if (!stream2->enemies.empty()){
+			if(!((this->player->box.x>stream2->enemies.at(0)->box.x+stream2->enemies.at(0)->box.w ||
+			   ((this->player->box.x+this->player->box.w)<stream2->enemies.at(0)->box.x)) ||
+			   (this->player->box.y>stream2->enemies.at(0)->box.y+stream2->enemies.at(0)->box.h ||
+			   (this->player->box.y+this->player->box.h)<stream2->enemies.at(0)->box.y))){
+				stream2->enemies.erase(stream2->enemies.begin());
+			}		
+		}
+		//player colision stream3
+		if (!stream3->enemies.empty()){
+			if(!((this->player->box.x>stream3->enemies.at(0)->box.x+stream3->enemies.at(0)->box.w ||
+			   ((this->player->box.x+this->player->box.w)<stream3->enemies.at(0)->box.x)) ||
+			   (this->player->box.y>stream3->enemies.at(0)->box.y+stream3->enemies.at(0)->box.h ||
+			   (this->player->box.y+this->player->box.h)<stream3->enemies.at(0)->box.y))){
+				stream3->enemies.erase(stream3->enemies.begin());
+			}		
+		}
+		//player colision stream4
+		if (!stream4->enemies.empty()){
+			if(!((this->player->box.x>stream4->enemies.at(0)->box.x+stream4->enemies.at(0)->box.w ||
+			   ((this->player->box.x+this->player->box.w)<stream4->enemies.at(0)->box.x)) ||
+			   (this->player->box.y>stream4->enemies.at(0)->box.y+stream4->enemies.at(0)->box.h ||
+			   (this->player->box.y+this->player->box.h)<stream4->enemies.at(0)->box.y))){
+				stream4->enemies.erase(stream4->enemies.begin());
+			}		
+		}
 
-		//}
-
+		
 		//Logic
 
 		this->player->update(delta.get_ticks());
