@@ -83,7 +83,64 @@ void Game::run(){
 
 		insert_enemies();
 
-	    //player colision stream1
+	    player_colision();
+	    center_colision();
+		
+		//Logic
+
+		this->player->update(delta.get_ticks());
+		this->stream1->update(delta.get_ticks());
+		this->stream2->update(delta.get_ticks());
+		this->stream3->update(delta.get_ticks());
+		this->stream4->update(delta.get_ticks());
+
+		this->delta.start();
+		//Render
+		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00)); //paints everything with black
+		this->center->draw();
+		this->player->draw();
+
+		this->stream1->draw();
+		this->stream2->draw();
+		this->stream3->draw();
+		this->stream4->draw();
+
+		SDL_Flip(screen);
+		
+		//FPS control
+		if(1000/FPS > SDL_GetTicks() - this->start)
+			SDL_Delay(1000/FPS - (SDL_GetTicks() - this->start));
+	}
+}
+
+void Game::insert_enemies(){
+	this->delayticks+=delta.get_ticks();
+	if (this->delayticks>1000){
+		this->delayticks-=1000;
+		int random_stream = rand() % 4 + 1;
+		switch(random_stream){
+	       	case 1:
+	    		this->stream1->insert_enemy();
+	    	break;
+
+	    	case 2:
+	    		this->stream2->insert_enemy();
+	    	break;
+
+	    	case 3:
+	    		this->stream3->insert_enemy();
+	    	break;
+
+	    	case 4:
+	    		this->stream4->insert_enemy();
+	    	break;
+		}
+	}
+
+}
+
+void Game::player_colision(){
+	//player colision stream1
 		if (!stream1->enemies.empty()){
 			if(!((this->player->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
 			   ((this->player->box.x+this->player->box.w)<stream1->enemies.at(0)->box.x)) ||
@@ -119,8 +176,10 @@ void Game::run(){
 				stream4->enemies.erase(stream4->enemies.begin());
 			}		
 		}
- 
- 		//center colision stream1
+}	
+
+void Game::center_colision(){
+	//center colision stream1
 		if (!stream1->enemies.empty()){
 			if(!((this->center->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
 			   ((this->center->box.x+this->center->box.w)<stream1->enemies.at(0)->box.x)) ||
@@ -156,56 +215,4 @@ void Game::run(){
 				stream4->enemies.erase(stream4->enemies.begin());
 			}		
 		}
-
-		
-		//Logic
-
-		this->player->update(delta.get_ticks());
-		this->stream1->update(delta.get_ticks());
-		this->stream2->update(delta.get_ticks());
-		this->stream3->update(delta.get_ticks());
-		this->stream4->update(delta.get_ticks());
-
-		this->delta.start();
-		//Render
-		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00)); //paints everything with black
-		this->center->draw();
-		this->player->draw();
-
-		this->stream1->draw();
-		this->stream2->draw();
-		this->stream3->draw();
-		this->stream4->draw();
-
-		SDL_Flip(screen);
-		
-		//FPS control
-		if(1000/FPS > SDL_GetTicks() - this->start)
-			SDL_Delay(1000/FPS - (SDL_GetTicks() - this->start));
-	}
-}
-
-void Game::insert_enemies(){
-	this->delayticks+=delta.get_ticks();
-		if (this->delayticks>1000){
-			this->delayticks-=1000;
-			int random_stream = rand() % 4 + 1;
-			switch(random_stream){
-		       	case 1:
-		    		this->stream1->insert_enemy();
-		    	break;
-
-		    	case 2:
-		    		this->stream2->insert_enemy();
-		    	break;
-
-		    	case 3:
-		    		this->stream3->insert_enemy();
-		    	break;
-
-		    	case 4:
-		    		this->stream4->insert_enemy();
-		    	break;
-			}
-		}
-}
+}	

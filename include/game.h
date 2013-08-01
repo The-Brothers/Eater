@@ -44,6 +44,8 @@ public:
 	~Game();
 	void run();
 	void insert_enemies();
+	void center_colision();
+	void player_colision();
 };
 
 #endif
