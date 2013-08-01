@@ -5,6 +5,7 @@
 #include "SDL/SDL_image.h"
 #include "SDL/SDL_ttf.h"
 #include "timer.h"
+#include "text.h"
 
 #include "center.h"
 #include "player.h"
@@ -36,6 +37,10 @@ class Game{
 	Stream* stream2;
 	Stream* stream3;
 	Stream* stream4;
+
+	Text* score;
+
+	int score_count;
 public:
 	Game();
 	~Game();

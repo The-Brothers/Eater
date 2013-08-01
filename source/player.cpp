@@ -59,41 +59,4 @@ void Player::move(int direction){
 			if (this->pos == 1) this->pos = 0;
 		break;
 	}
-
-//Controle mecanico
-	// switch(this->pos){
-	// 	case 0:
-	// 		if(direction) this->pos = 1;
-	// 		else this->pos = 3;
-	// 	break;
-	// 	case 1:
-	// 		if(direction) this->pos = 2;
-	// 		else this->pos = 0;
-	// 	break;
-	// 	case 2:
-	// 		if(direction) this->pos = 1;
-	// 		else this->pos = 3;
-	// 	break;
-	// 	case 3:
-	// 		if(direction) this->pos = 2;
-	// 		else this->pos = 0;
-	// 	break;
-	// }
-
-//Controle rotativo
-	// //true = right = add
-	// if(direction){
-	// 	if(this->pos == 3)
-	// 		this->pos = 0;
-	// 	else
-	// 		this->pos+=1;
-	// }
-	// //false = left = subtract
-	// else{
-	// 	if(this->pos == 0)
-	// 		this->pos = 3;
-	// 	else
-	// 		this->pos-=1;
-	// }
-
 }

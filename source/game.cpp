@@ -21,6 +21,14 @@ Game::Game(){
 	this->running = true;
 
 	//Game stuff
+	this->delayticks=0;
+
+	this->score_count = 0;
+
+	char temp[5];
+	sprintf(temp,"%d",this->score_count);
+	this->score = new Text(string(temp),32,180,0);
+	this->score->setColor(WHITE);
 	this->center = new Center();
 	this->player = new Player();
 
@@ -29,7 +37,6 @@ Game::Game(){
 	this->stream3 = new Stream(3);
 	this->stream4 = new Stream(4);
 
-	this->delayticks=0;
 }
 
 Game::~Game(){
@@ -94,6 +101,7 @@ void Game::run(){
 		
 		//Logic
 
+	    this->score->update();
 		this->player->update(delta.get_ticks());
 		this->stream1->update(delta.get_ticks());
 		this->stream2->update(delta.get_ticks());
@@ -110,6 +118,8 @@ void Game::run(){
 		this->stream2->draw();
 		this->stream3->draw();
 		this->stream4->draw();
+
+		this->score->draw();
 
 		SDL_Flip(screen);
 		
@@ -153,6 +163,11 @@ void Game::player_colision(){
 			   (this->player->box.y>stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
 			   (this->player->box.y+this->player->box.h)<stream1->enemies.at(0)->box.y))){
 				stream1->enemies.erase(stream1->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream2
@@ -162,6 +177,11 @@ void Game::player_colision(){
 			   (this->player->box.y>stream2->enemies.at(0)->box.y+stream2->enemies.at(0)->box.h ||
 			   (this->player->box.y+this->player->box.h)<stream2->enemies.at(0)->box.y))){
 				stream2->enemies.erase(stream2->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream3
@@ -171,6 +191,11 @@ void Game::player_colision(){
 			   (this->player->box.y>stream3->enemies.at(0)->box.y+stream3->enemies.at(0)->box.h ||
 			   (this->player->box.y+this->player->box.h)<stream3->enemies.at(0)->box.y))){
 				stream3->enemies.erase(stream3->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream4
@@ -180,6 +205,11 @@ void Game::player_colision(){
 			   (this->player->box.y>stream4->enemies.at(0)->box.y+stream4->enemies.at(0)->box.h ||
 			   (this->player->box.y+this->player->box.h)<stream4->enemies.at(0)->box.y))){
 				stream4->enemies.erase(stream4->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 }	
