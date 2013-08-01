@@ -23,15 +23,15 @@ SDL_Surface * carregaImagem(const char* img){
 	}
 	//cout << "Aberta com sucesso!" << endl;
 	// Cria a imagem otimizada
-    optimizedImage = SDL_DisplayFormat(loadedImage);
+    optimizedImage = SDL_DisplayFormatAlpha(loadedImage);
     
     // Libera a imagem antiga da memória
     SDL_FreeSurface(loadedImage);
     
     // Fazer o colorKey
     //Uint32 colorkey = SDL_MapRGB(optimizedImage->format,0x00,0xff,0xfc);
-    Uint32 colorkey = SDL_MapRGB(optimizedImage->format,0xff,0x00,0xff);
-    SDL_SetColorKey(optimizedImage, SDL_SRCCOLORKEY, colorkey);
+    //Uint32 colorkey = SDL_MapRGB(optimizedImage->format,0xff,0x00,0xff);
+    //SDL_SetColorKey(optimizedImage, SDL_SRCCOLORKEY, colorkey);
 
     return optimizedImage;
 }
