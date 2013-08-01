@@ -16,20 +16,20 @@ Enemy::Enemy(int origin){
 			this->deltay = this->speed;
 		break;
 		case 2:
-			this->x = this->box.x = 360;
+			this->x = this->box.x = 365;
 			this->y = this->box.y = 10;
 			this->deltax = -1 * this->speed;
 			this->deltay = this->speed;
 		break;
 		case 3:
 			this->x = this->box.x = 10;
-			this->y = this->box.y = 360;
+			this->y = this->box.y = 365;
 			this->deltax = this->speed;
 			this->deltay = -1 * this->speed;
 		break;
 		case 4:
-			this->x = this->box.x = 360;
-			this->y = this->box.y = 360;
+			this->x = this->box.x = 365;
+			this->y = this->box.y = 365;
 			this->deltax = -1 * this->speed;
 			this->deltay = -1 * this->speed;
 		break;
