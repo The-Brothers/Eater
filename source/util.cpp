@@ -2,7 +2,7 @@
 
 using namespace std;
 
-SDL_Surface * carregaImagem(const char* img){
+SDL_Surface * loadImage(const char* img){
 	// Deve-se fazer um tratamento para verificar a extensão da imagem
 	// Inicializa a imagem a se carregada
 	SDL_Surface * loadedImage = NULL;

@@ -1,7 +1,7 @@
 #include "center.h"
 
 Center::Center(){
-	this->image = carregaImagem("data/center.png");
+	this->image = loadImage("data/center.png");
 	this->box.x = 180;
 	this->box.y = 180;
 	this->box.w = 40;

@@ -1,7 +1,7 @@
 #include "enemy.h"
 
 Enemy::Enemy(int origin){
-	this->image = carregaImagem("data/enemy.png");
+	this->image = loadImage("data/enemy.png");
 
 	this->box.h = 20;
 	this->box.w = 20;
