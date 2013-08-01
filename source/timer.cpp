@@ -59,7 +59,7 @@ void Timer::unpause()
     }
 }
 
-int Timer::get_ticks()
+int Timer::getTicks()
 {
     //If the timer is running
     if( started == true )

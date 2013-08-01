@@ -104,12 +104,12 @@ void Game::run(){
 
 		//Logic
 	    this->score->update();
-		this->player->update(delta.get_ticks());
-		this->stream1->update(delta.get_ticks());
-		this->stream2->update(delta.get_ticks());
-		this->stream3->update(delta.get_ticks());
-		this->stream4->update(delta.get_ticks());
-		this->healthbar->update(delta.get_ticks());
+		this->player->update(delta.getTicks());
+		this->stream1->update(delta.getTicks());
+		this->stream2->update(delta.getTicks());
+		this->stream3->update(delta.getTicks());
+		this->stream4->update(delta.getTicks());
+		this->healthbar->update(delta.getTicks());
 
 		this->delta.start();
 		//Render
@@ -134,7 +134,7 @@ void Game::run(){
 }
 
 void Game::insertEnemies(){
-	this->delayticks+=delta.get_ticks();
+	this->delayticks+=delta.getTicks();
 	if (this->delayticks>1000){
 		this->delayticks-=1000;
 		int random_stream = rand() % 4 + 1;
