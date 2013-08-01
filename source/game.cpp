@@ -135,8 +135,8 @@ void Game::run(){
 
 void Game::insertEnemies(){
 	this->delayticks+=delta.get_ticks();
-	if (this->delayticks>1000){
-		this->delayticks-=1000;
+	if (this->delayticks>350){
+		this->delayticks-=350;
 		int random_stream = rand() % 4 + 1;
 		switch(random_stream){
 	       	case 1:
