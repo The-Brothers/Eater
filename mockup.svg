@@ -27,12 +27,12 @@
      borderopacity="0.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="0"
-     inkscape:zoom="0.9983453"
-     inkscape:cx="148.98322"
-     inkscape:cy="202.72889"
+     inkscape:zoom="11.313709"
+     inkscape:cx="216.47358"
+     inkscape:cy="239.20932"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1600"
      inkscape:window-height="824"
      inkscape:window-x="0"
@@ -40,7 +40,11 @@
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
-       id="grid2993" />
+       id="grid2993"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata2990">
@@ -50,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,7 +69,72 @@
        width="400"
        height="400"
        x="0"
-       y="652.36218" />
+       y="652.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-9"
+       width="10"
+       height="1"
+       x="272"
+       y="768.36218" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-8"
+       width="10"
+       height="1"
+       x="232"
+       y="808.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-82"
+       width="10"
+       height="1"
+       x="128"
+       y="778.36218" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-5"
+       width="10"
+       height="1"
+       x="98"
+       y="748.36218" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-1"
+       width="10"
+       height="1"
+       x="78"
+       y="728.36218" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-81"
+       width="10"
+       height="1"
+       x="108"
+       y="938.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-55"
+       width="10"
+       height="1"
+       x="88"
+       y="958.36218" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-2"
+       width="10"
+       height="1"
+       x="68"
+       y="978.36218" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -116,8 +185,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:type="arc"
        style="fill:#0000ff;fill-opacity:1;stroke:none"
@@ -128,156 +196,6 @@
        sodipodi:ry="15"
        d="m -110,797.36218 a 15,15 0 1 1 -30,0 15,15 0 1 1 30,0 z"
        transform="matrix(1.3333333,0,0,1.3333333,366.66666,-210.78737)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#d45500;fill-opacity:1;stroke:none"
-       id="path3767"
-       sodipodi:cx="190"
-       sodipodi:cy="897.36218"
-       sodipodi:rx="15"
-       sodipodi:ry="15"
-       d="m 205,897.36218 a 15,15 0 1 1 -30,0 15,15 0 1 1 30,0 z"
-       transform="translate(-25.050251,-10)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="path3771"
-       sodipodi:cx="195"
-       sodipodi:cy="892.36218"
-       sodipodi:rx="3.5"
-       sodipodi:ry="3.5"
-       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-       transform="translate(-34.550251,-9.5)" />
-    <path
-       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-       sodipodi:ry="3.5"
-       sodipodi:rx="3.5"
-       sodipodi:cy="892.36218"
-       sodipodi:cx="195"
-       id="path3773"
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       sodipodi:type="arc"
-       transform="translate(-25.050251,-9.5)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3797"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,60,-1092.3622)" />
-    <path
-       transform="matrix(2,0,0,2,80,-1112.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3799"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3801"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,40,-1072.3622)" />
-    <path
-       transform="matrix(2,0,0,2,290,-1082.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3803"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3805"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,310,-1062.3622)" />
-    <path
-       transform="matrix(2,0,0,2,270,-1102.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3807"
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       transform="matrix(2,0,0,2,210,-1242.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3809"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3811"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,250,-1282.3622)" />
-    <path
-       transform="matrix(2,0,0,2,290,-1322.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3813"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3815"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,70,-1302.3622)" />
-    <path
-       transform="matrix(2,0,0,2,100,-1272.3622)"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       sodipodi:ry="5"
-       sodipodi:rx="5"
-       sodipodi:cy="1027.3622"
-       sodipodi:cx="15"
-       id="path3817"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffcc00;fill-opacity:1;stroke:none"
-       id="path3819"
-       sodipodi:cx="15"
-       sodipodi:cy="1027.3622"
-       sodipodi:rx="5"
-       sodipodi:ry="5"
-       d="m 20,1027.3622 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
-       transform="matrix(2,0,0,2,50,-1322.3622)" />
     <path
        style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
        d="m 360,1012.3622 0,30 5,0 0,-25 25,0 0,-5 -30,0 z"
@@ -298,6 +216,1092 @@
        d="m 40,692.3622 0,-30 -5,0 0,25 -25,0 0,5 30,0 z"
        id="path3889"
        inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       id="rect3023"
+       width="4"
+       height="3"
+       x="157"
+       y="879.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
+       id="rect3038"
+       width="4"
+       height="6"
+       x="163"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
+       id="rect3040"
+       width="4"
+       height="5"
+       x="163"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       id="path3771"
+       sodipodi:cx="195"
+       sodipodi:cy="892.36218"
+       sodipodi:rx="3.5"
+       sodipodi:ry="3.5"
+       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+       transform="translate(-34.550247,-9.5)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+       sodipodi:ry="3.5"
+       sodipodi:rx="3.5"
+       sodipodi:cy="892.36218"
+       sodipodi:cx="195"
+       id="path3773"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       sodipodi:type="arc"
+       transform="translate(-25.050247,-9.5)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
+       d="m 150,872.36218 0,30 10,0 0,-5 10,0 0,5 10,0 0,-30 -30,0 z"
+       id="rect3019"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       id="rect3021"
+       width="24"
+       height="10"
+       x="153"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       id="rect3025"
+       width="3"
+       height="5"
+       x="157"
+       y="879.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="879.36218"
+       x="170"
+       height="5"
+       width="3"
+       id="rect3027"
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       id="rect3029"
+       width="9"
+       height="5"
+       x="151"
+       y="887.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="887.36218"
+       x="170"
+       height="5"
+       width="9"
+       id="rect3031"
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline"
+       id="rect3033"
+       width="30"
+       height="2"
+       x="150"
+       y="893.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="876.36218"
+       x="163"
+       height="6"
+       width="4"
+       id="rect3044"
+       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="942.34937"
+       x="109"
+       height="1"
+       width="4"
+       id="rect3245"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247"
+       d="m 100,932.36218 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.01639,-1 0.98361,1 1.00513,-1 0.99487,1 0.86128,-1 1.13872,1 1.07099,-1 0.92901,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249"
+       d="m 103,935.34936 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251"
+       width="4"
+       height="1"
+       x="103"
+       y="942.34937"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="936.34937"
+       x="114"
+       height="1"
+       width="1"
+       id="rect3253"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="936.34937"
+       x="116"
+       height="1"
+       width="1"
+       id="rect3255"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="945.34937"
+       x="100"
+       height="2"
+       width="10"
+       id="rect3257"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259"
+       width="3"
+       height="2"
+       x="100"
+       y="947.34937"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="947.34937"
+       x="107"
+       height="2"
+       width="3"
+       id="rect3261"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="936.36218"
+       x="106"
+       height="1"
+       width="1"
+       id="rect3263"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3310"
+       width="4"
+       height="1"
+       x="89"
+       y="962.34937" />
+    <path
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline"
+       d="m 80,952.36218 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.01639,-1 0.98361,1 1.00513,-1 0.99487,1 0.86128,-1 1.13872,1 1.07099,-1 0.92901,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       id="path3312"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline"
+       d="m 83,955.34936 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       id="path3314"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <rect
+       y="962.34937"
+       x="83"
+       height="1"
+       width="4"
+       id="rect3316"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       id="rect3318"
+       width="1"
+       height="1"
+       x="94"
+       y="956.34937" />
+    <rect
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       id="rect3320"
+       width="1"
+       height="1"
+       x="96"
+       y="956.34937" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3322"
+       width="10"
+       height="2"
+       x="80"
+       y="965.34937" />
+    <rect
+       y="967.34937"
+       x="80"
+       height="2"
+       width="3"
+       id="rect3324"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3326"
+       width="3"
+       height="2"
+       x="87"
+       y="967.34937" />
+    <rect
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       id="rect3328"
+       width="1"
+       height="1"
+       x="86"
+       y="956.36218" />
+    <rect
+       y="982.36218"
+       x="69"
+       height="1"
+       width="4"
+       id="rect3330"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3332"
+       d="m 60,972.375 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.01639,-1 0.98361,1 1.00513,-1 0.99487,1 0.86128,-1 1.13872,1 1.07099,-1 0.92901,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3334"
+       d="m 63,975.36218 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3336"
+       width="4"
+       height="1"
+       x="63"
+       y="982.36218" />
+    <rect
+       y="976.36218"
+       x="74"
+       height="1"
+       width="1"
+       id="rect3338"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="976.36218"
+       x="76"
+       height="1"
+       width="1"
+       id="rect3340"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="985.36218"
+       x="60"
+       height="2"
+       width="10"
+       id="rect3342"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3344"
+       width="3"
+       height="2"
+       x="60"
+       y="987.36218" />
+    <rect
+       y="987.36218"
+       x="67"
+       height="2"
+       width="3"
+       id="rect3346"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="976.375"
+       x="66"
+       height="1"
+       width="1"
+       id="rect3348"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="782.34937"
+       x="129"
+       height="1"
+       width="4"
+       id="rect3245-1"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-4"
+       d="m 120,772.3622 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.01639,-1 0.98361,1 1.00513,-1 0.99487,1 0.86128,-1 1.13872,1 1.07099,-1 0.92901,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-2"
+       d="m 123,775.34938 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-7"
+       width="4"
+       height="1"
+       x="123"
+       y="782.34937" />
+    <rect
+       y="776.34937"
+       x="134"
+       height="1"
+       width="1"
+       id="rect3253-9"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="776.34937"
+       x="136"
+       height="1"
+       width="1"
+       id="rect3255-1"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="785.34937"
+       x="120"
+       height="2"
+       width="10"
+       id="rect3257-3"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-0"
+       width="3"
+       height="2"
+       x="120"
+       y="787.34937" />
+    <rect
+       y="787.34937"
+       x="127"
+       height="2"
+       width="3"
+       id="rect3261-3"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="776.36218"
+       x="126"
+       height="1"
+       width="1"
+       id="rect3263-5"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="752.34937"
+       x="99"
+       height="1"
+       width="4"
+       id="rect3245-8"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-7"
+       d="m 90,742.36218 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.01639,-1 0.98361,1 1.00513,-1 0.99487,1 0.86128,-1 1.13872,1 1.07099,-1 0.92901,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-3"
+       d="m 93,745.34936 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-71"
+       width="4"
+       height="1"
+       x="93"
+       y="752.34937" />
+    <rect
+       y="746.34937"
+       x="104"
+       height="1"
+       width="1"
+       id="rect3253-3"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="746.34937"
+       x="106"
+       height="1"
+       width="1"
+       id="rect3255-4"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="755.34937"
+       x="90"
+       height="2"
+       width="10"
+       id="rect3257-8"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-1"
+       width="3"
+       height="2"
+       x="90"
+       y="757.34937" />
+    <rect
+       y="757.34937"
+       x="97"
+       height="2"
+       width="3"
+       id="rect3261-33"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="746.36218"
+       x="96"
+       height="1"
+       width="1"
+       id="rect3263-4"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="732.34937"
+       x="79"
+       height="1"
+       width="4"
+       id="rect3245-7"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-0"
+       d="m 70,722.36218 0,20 3,0 0,-5 4,0 0,5 3,0 0,-11 7,0 0,-1 1,0 0,-1 -4,0 -6,0 1,-1 1,1 1.016389,-1 0.983611,1 1.005127,-1 0.994873,1 0.861283,-1 1.138717,1 1.070991,-1 0.929009,1 0,-4 -6,0 -2,-1 0,0 0,-1 -1,0 1,0 -5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-5"
+       d="m 73,725.34936 0,0.0128 0,2 2,0 3,-0.0128 -1,-0.98718 -2,-1 -2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-8"
+       width="4"
+       height="1"
+       x="73"
+       y="732.34937" />
+    <rect
+       y="726.34937"
+       x="84"
+       height="1"
+       width="1"
+       id="rect3253-5"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="726.34937"
+       x="86"
+       height="1"
+       width="1"
+       id="rect3255-3"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="735.34937"
+       x="70"
+       height="2"
+       width="10"
+       id="rect3257-2"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-17"
+       width="3"
+       height="2"
+       x="70"
+       y="737.34937" />
+    <rect
+       y="737.34937"
+       x="77"
+       height="2"
+       width="3"
+       id="rect3261-9"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="726.36218"
+       x="76"
+       height="1"
+       width="1"
+       id="rect3263-2"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="732.36218"
+       x="-321"
+       height="1"
+       width="4"
+       id="rect3245-10"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-6"
+       width="10"
+       height="1"
+       x="312"
+       y="728.36218" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8"
+       d="m 330,722.37502 0,20 -3,0 0,-5 -4,0 0,5 -3,0 0,-11 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7"
+       d="m 327,725.3622 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4"
+       width="4"
+       height="1"
+       x="-327"
+       y="732.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="726.36218"
+       x="-316"
+       height="1"
+       width="1"
+       id="rect3253-6"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="726.36218"
+       x="-314"
+       height="1"
+       width="1"
+       id="rect3255-0"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="735.36218"
+       x="-330"
+       height="2"
+       width="10"
+       id="rect3257-0"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14"
+       width="3"
+       height="2"
+       x="-330"
+       y="737.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="737.36218"
+       x="-323"
+       height="2"
+       width="3"
+       id="rect3261-91"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="726.375"
+       x="-324"
+       height="1"
+       width="1"
+       id="rect3263-7"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="772.36218"
+       x="-281"
+       height="1"
+       width="4"
+       id="rect3245-10-2"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8-6"
+       d="m 290,762.37502 0,20 -3,0 0,-5 -4,0 0,5 -3,0 0,-11 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7-4"
+       d="m 287,765.3622 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4-1"
+       width="4"
+       height="1"
+       x="-287"
+       y="772.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="766.36218"
+       x="-276"
+       height="1"
+       width="1"
+       id="rect3253-6-3"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="766.36218"
+       x="-274"
+       height="1"
+       width="1"
+       id="rect3255-0-0"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="775.36218"
+       x="-290"
+       height="2"
+       width="10"
+       id="rect3257-0-9"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14-5"
+       width="3"
+       height="2"
+       x="-290"
+       y="777.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="777.36218"
+       x="-283"
+       height="2"
+       width="3"
+       id="rect3261-91-2"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="766.375"
+       x="-284"
+       height="1"
+       width="1"
+       id="rect3263-7-1"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="812.34937"
+       x="-241"
+       height="1"
+       width="4"
+       id="rect3245-10-26"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8-9"
+       d="m 250,802.3622 0,20 -3,0 0,-5 -4,0 0,5 -3,0 0,-11 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7-3"
+       d="m 247,805.34938 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4-3"
+       width="4"
+       height="1"
+       x="-247"
+       y="812.34937"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="806.34937"
+       x="-236"
+       height="1"
+       width="1"
+       id="rect3253-6-4"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="806.34937"
+       x="-234"
+       height="1"
+       width="1"
+       id="rect3255-0-5"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="815.34937"
+       x="-250"
+       height="2"
+       width="10"
+       id="rect3257-0-98"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14-9"
+       width="3"
+       height="2"
+       x="-250"
+       y="817.34937"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="817.34937"
+       x="-243"
+       height="2"
+       width="3"
+       id="rect3261-91-1"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="806.36218"
+       x="-244"
+       height="1"
+       width="1"
+       id="rect3263-7-4"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy_l.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="952.36218"
+       x="-301"
+       height="1"
+       width="4"
+       id="rect3245-10-26-7"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none"
+       id="rect3615"
+       width="10"
+       height="1"
+       x="292"
+       y="948.36218" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8-9-4"
+       d="m 310,942.37502 0,20 -3,0 0,-5 -4,0 0,5 -3,0 0,-11 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7-3-1"
+       d="m 307,945.3622 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4-3-8"
+       width="4"
+       height="1"
+       x="-307"
+       y="952.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="946.36218"
+       x="-296"
+       height="1"
+       width="1"
+       id="rect3253-6-4-6"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="946.36218"
+       x="-294"
+       height="1"
+       width="1"
+       id="rect3255-0-5-6"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="955.36218"
+       x="-310"
+       height="2"
+       width="10"
+       id="rect3257-0-98-3"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14-9-8"
+       width="3"
+       height="2"
+       x="-310"
+       y="957.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="957.36218"
+       x="-303"
+       height="2"
+       width="3"
+       id="rect3261-91-1-5"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="946.375"
+       x="-304"
+       height="1"
+       width="1"
+       id="rect3263-7-4-9"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="972.34937"
+       x="-321"
+       height="1"
+       width="4"
+       id="rect3245-10-26-9"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1"
+       width="10"
+       height="1"
+       x="312"
+       y="968.36218" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8-9-5"
+       d="m 330,962.3622 0,20 -3,0 0,-5 -4,0 0,5 -3,0 0,-11 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7-3-2"
+       d="m 327,965.34938 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4-3-3"
+       width="4"
+       height="1"
+       x="-327"
+       y="972.34937"
+       transform="scale(-1,1)" />
+    <rect
+       y="966.34937"
+       x="-316"
+       height="1"
+       width="1"
+       id="rect3253-6-4-8"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="966.34937"
+       x="-314"
+       height="1"
+       width="1"
+       id="rect3255-0-5-68"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="975.34937"
+       x="-330"
+       height="2"
+       width="10"
+       id="rect3257-0-98-7"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14-9-7"
+       width="3"
+       height="2"
+       x="-330"
+       y="977.34937"
+       transform="scale(-1,1)" />
+    <rect
+       y="977.34937"
+       x="-323"
+       height="2"
+       width="3"
+       id="rect3261-91-1-9"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="966.36218"
+       x="-324"
+       height="1"
+       width="1"
+       id="rect3263-7-4-1"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="992.36218"
+       x="-341"
+       height="1"
+       width="4"
+       id="rect3245-10-26-4"
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;stroke:none;display:inline"
+       id="rect3615-1-3"
+       width="10"
+       height="1"
+       x="332"
+       y="988.36218" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3247-8-9-53"
+       d="m 350,982.37502 0,19.99998 -3,0 0,-4.99998 -4,0 0,4.99998 -3,0 0,-10.99998 -7,0 0,-1 -1,0 0,-1 4,0 6,0 -1,-1 -1,1 -1.01639,-1 -0.98361,1 -1.00513,-1 -0.99487,1 -0.86128,-1 -1.13872,1 -1.07099,-1 -0.92901,1 0,-4 6,0 2,-1 0,0 0,-1 1,0 -1,0 5,-1 0,1 z"
+       style="fill:#677821;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3249-7-3-3"
+       d="m 347,985.3622 0,0.0128 0,2 -2,0 -3,-0.0128 1,-0.98718 2,-1 2,0 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#225500;fill-opacity:1;stroke:none;display:inline"
+       id="rect3251-4-3-9"
+       width="4"
+       height="1"
+       x="-347"
+       y="992.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="986.36218"
+       x="-336"
+       height="1"
+       width="1"
+       id="rect3253-6-4-0"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="986.36218"
+       x="-334"
+       height="1"
+       width="1"
+       id="rect3255-0-5-3"
+       style="fill:#1f241c;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="995.36218"
+       x="-350"
+       height="2"
+       width="10"
+       id="rect3257-0-98-8"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       id="rect3259-14-9-9"
+       width="3"
+       height="2"
+       x="-350"
+       y="997.36218"
+       transform="scale(-1,1)" />
+    <rect
+       y="997.36218"
+       x="-343"
+       height="2"
+       width="3"
+       id="rect3261-91-1-99"
+       style="fill:#002b00;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
+    <rect
+       y="986.375"
+       x="-344"
+       height="1"
+       width="1"
+       id="rect3263-7-4-7"
+       style="fill:#003380;fill-opacity:1;stroke:none;display:inline"
+       transform="scale(-1,1)" />
   </g>
   <g
      inkscape:groupmode="layer"
