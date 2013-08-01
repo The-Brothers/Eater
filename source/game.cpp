@@ -21,6 +21,14 @@ Game::Game(){
 	this->running = true;
 
 	//Game stuff
+	this->delayticks=0;
+
+	this->score_count = 0;
+
+	char temp[5];
+	sprintf(temp,"%d",this->score_count);
+	this->score = new Text(string(temp),32,180,0);
+	this->score->setColor(WHITE);
 	this->center = new Center();
 	this->player = new Player();
 
@@ -29,7 +37,6 @@ Game::Game(){
 	this->stream3 = new Stream(3);
 	this->stream4 = new Stream(4);
 
-	this->delayticks=0;
 }
 
 Game::~Game(){
@@ -94,6 +101,7 @@ void Game::run(){
 		
 		//Logic
 
+	    this->score->update();
 		this->player->update(delta.get_ticks());
 		this->stream1->update(delta.get_ticks());
 		this->stream2->update(delta.get_ticks());
@@ -110,6 +118,8 @@ void Game::run(){
 		this->stream2->draw();
 		this->stream3->draw();
 		this->stream4->draw();
+
+		this->score->draw();
 
 		SDL_Flip(screen);
 		
@@ -150,24 +160,44 @@ void Game::player_colision(){
 		if (!stream1->enemies.empty()){
 			if(handleColision(this->player->box,stream1->enemies.at(0)->box)){
 				stream1->enemies.erase(stream1->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream2
 		if (!stream2->enemies.empty()){
 			if(handleColision(this->player->box,stream2->enemies.at(0)->box)){
 				stream2->enemies.erase(stream2->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream3
 		if (!stream3->enemies.empty()){
 			if(handleColision(this->player->box,stream3->enemies.at(0)->box)){
 				stream3->enemies.erase(stream3->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 		//player colision stream4
 		if (!stream4->enemies.empty()){
 			if(handleColision(this->player->box,stream4->enemies.at(0)->box)){
 				stream4->enemies.erase(stream4->enemies.begin());
+			
+				this->score_count++;
+				char temp[5];
+				sprintf(temp,"%d",this->score_count);
+				this->score->setText(string(temp));
 			}		
 		}
 }	
