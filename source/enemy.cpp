@@ -1,10 +1,10 @@
 #include "enemy.h"
 
 Enemy::Enemy(int origin){
-	this->image = loadImage("data/enemy.png");
+	this->image = loadImage("data/enemy2.png");
 
-	this->box.h = 20;
-	this->box.w = 20;
+	this->box.h = 30;
+	this->box.w = 30;
 
 	this->speed = 100;
 
