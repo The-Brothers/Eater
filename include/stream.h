@@ -24,7 +24,7 @@ public:
 	void draw();
 	void update(Uint32 delta);
 
-	void draw_enemies();
-	void insert_enemy();
+	void drawEnemies();
+	void insertEnemy();
 };
 #endif
