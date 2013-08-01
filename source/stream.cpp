@@ -36,7 +36,7 @@ Stream::~Stream(){
 
 void Stream::draw(){
 	SDL_BlitSurface(this->image,NULL,SDL_GetVideoSurface(),&this->box);
-	draw_enemies();
+	drawEnemies();
 }
 
 void Stream::update(Uint32 delta){
@@ -45,12 +45,12 @@ void Stream::update(Uint32 delta){
 	}
 }
 
-void Stream::draw_enemies(){
+void Stream::drawEnemies(){
 	for(int i=0;i<(int)this->enemies.size();i++){
 		this->enemies[i]->draw();
 	}
 }
 
-void Stream::insert_enemy(){
+void Stream::insertEnemy(){
 	this->enemies.push_back(new Enemy(this->id));
 }

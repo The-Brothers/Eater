@@ -59,19 +59,19 @@ void Game::run(){
 				case SDL_KEYDOWN:
                     switch (events.key.keysym.sym) {                    	
                     	case SDLK_1:
-                    		this->stream1->insert_enemy();
+                    		this->stream1->insertEnemy();
                     	break;
 
                     	case SDLK_2:
-                    		this->stream2->insert_enemy();
+                    		this->stream2->insertEnemy();
                     	break;
 
                     	case SDLK_3:
-                    		this->stream3->insert_enemy();
+                    		this->stream3->insertEnemy();
                     	break;
 
                     	case SDLK_4:
-                    		this->stream4->insert_enemy();
+                    		this->stream4->insertEnemy();
                     	break;
 
                     	case SDLK_UP:
@@ -94,10 +94,9 @@ void Game::run(){
 			}
 		}
 
-		insert_enemies();
-
-	    player_colision();
-	    center_colision();
+		insertEnemies();
+	    playerColision();
+	    centerColision();
 		
 		//Logic
 
@@ -129,33 +128,33 @@ void Game::run(){
 	}
 }
 
-void Game::insert_enemies(){
+void Game::insertEnemies(){
 	this->delayticks+=delta.get_ticks();
 	if (this->delayticks>1000){
 		this->delayticks-=1000;
 		int random_stream = rand() % 4 + 1;
 		switch(random_stream){
 	       	case 1:
-	    		this->stream1->insert_enemy();
+	    		this->stream1->insertEnemy();
 	    	break;
 
 	    	case 2:
-	    		this->stream2->insert_enemy();
+	    		this->stream2->insertEnemy();
 	    	break;
 
 	    	case 3:
-	    		this->stream3->insert_enemy();
+	    		this->stream3->insertEnemy();
 	    	break;
 
 	    	case 4:
-	    		this->stream4->insert_enemy();
+	    		this->stream4->insertEnemy();
 	    	break;
 		}
 	}
 
 }
 
-void Game::player_colision(){
+void Game::playerColision(){
 	//player colision stream1
 		if (!stream1->enemies.empty()){
 			if(handleColision(this->player->box,stream1->enemies.at(0)->box)){
@@ -202,7 +201,7 @@ void Game::player_colision(){
 		}
 }	
 
-void Game::center_colision(){
+void Game::centerColision(){
 	//center colision stream1
 		if (!stream1->enemies.empty()){
 			if(handleColision(this->center->box,stream1->enemies.at(0)->box)){
