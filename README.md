@@ -26,9 +26,9 @@ Changelog:
 		- enemies colision with center
 	- 0.5 -
 		- score points
-	- 0.7 -
+	- 0.6 -
 		- health bar
-	- 0.8 -
+	- 0.7 -
 		- game states
 	
 ---------
