@@ -17,9 +17,6 @@
 
 #define FPS 30
 
-#define RIGHT true
-#define LEFT false
-
 class Game{
 
 	SDL_Surface* screen; //The game screen

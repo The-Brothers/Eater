@@ -3,6 +3,11 @@
 
 #include <SDL/SDL.h>
 
+#define UP 1
+#define DOWN 2
+#define RIGHT 3
+#define LEFT 4
+
 class Player{
 	SDL_Surface* image;
 	
@@ -16,7 +21,7 @@ public:
 	void draw();
 	void update(Uint32 delta);
 
-	void move(bool direction);
+	void move(int direction);
 };
 
 #endif

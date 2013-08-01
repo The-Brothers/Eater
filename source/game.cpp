@@ -67,6 +67,12 @@ void Game::run(){
                     		this->stream4->insert_enemy();
                     	break;
 
+                    	case SDLK_UP:
+                    		this->player->move(UP);                    		
+                    	break;
+                    	case SDLK_DOWN:
+                    		this->player->move(DOWN);
+                    	break;
                     	case SDLK_RIGHT:
                     		this->player->move(RIGHT);
                     	break;
