@@ -148,37 +148,25 @@ void Game::insert_enemies(){
 void Game::player_colision(){
 	//player colision stream1
 		if (!stream1->enemies.empty()){
-			if(!((this->player->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
-			   ((this->player->box.x+this->player->box.w)<stream1->enemies.at(0)->box.x)) ||
-			   (this->player->box.y>stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
-			   (this->player->box.y+this->player->box.h)<stream1->enemies.at(0)->box.y))){
+			if(handleColision(this->player->box,stream1->enemies.at(0)->box)){
 				stream1->enemies.erase(stream1->enemies.begin());
 			}		
 		}
 		//player colision stream2
 		if (!stream2->enemies.empty()){
-			if(!((this->player->box.x>stream2->enemies.at(0)->box.x+stream2->enemies.at(0)->box.w ||
-			   ((this->player->box.x+this->player->box.w)<stream2->enemies.at(0)->box.x)) ||
-			   (this->player->box.y>stream2->enemies.at(0)->box.y+stream2->enemies.at(0)->box.h ||
-			   (this->player->box.y+this->player->box.h)<stream2->enemies.at(0)->box.y))){
+			if(handleColision(this->player->box,stream2->enemies.at(0)->box)){
 				stream2->enemies.erase(stream2->enemies.begin());
 			}		
 		}
 		//player colision stream3
 		if (!stream3->enemies.empty()){
-			if(!((this->player->box.x>stream3->enemies.at(0)->box.x+stream3->enemies.at(0)->box.w ||
-			   ((this->player->box.x+this->player->box.w)<stream3->enemies.at(0)->box.x)) ||
-			   (this->player->box.y>stream3->enemies.at(0)->box.y+stream3->enemies.at(0)->box.h ||
-			   (this->player->box.y+this->player->box.h)<stream3->enemies.at(0)->box.y))){
+			if(handleColision(this->player->box,stream3->enemies.at(0)->box)){
 				stream3->enemies.erase(stream3->enemies.begin());
 			}		
 		}
 		//player colision stream4
 		if (!stream4->enemies.empty()){
-			if(!((this->player->box.x>stream4->enemies.at(0)->box.x+stream4->enemies.at(0)->box.w ||
-			   ((this->player->box.x+this->player->box.w)<stream4->enemies.at(0)->box.x)) ||
-			   (this->player->box.y>stream4->enemies.at(0)->box.y+stream4->enemies.at(0)->box.h ||
-			   (this->player->box.y+this->player->box.h)<stream4->enemies.at(0)->box.y))){
+			if(handleColision(this->player->box,stream4->enemies.at(0)->box)){
 				stream4->enemies.erase(stream4->enemies.begin());
 			}		
 		}
@@ -187,38 +175,26 @@ void Game::player_colision(){
 void Game::center_colision(){
 	//center colision stream1
 		if (!stream1->enemies.empty()){
-			if(!((this->center->box.x>stream1->enemies.at(0)->box.x+stream1->enemies.at(0)->box.w ||
-			   ((this->center->box.x+this->center->box.w)<stream1->enemies.at(0)->box.x)) ||
-			   (this->center->box.y>stream1->enemies.at(0)->box.y+stream1->enemies.at(0)->box.h ||
-			   (this->center->box.y+this->center->box.h)<stream1->enemies.at(0)->box.y))){
+			if(handleColision(this->center->box,stream1->enemies.at(0)->box)){
 				stream1->enemies.erase(stream1->enemies.begin());
 			}		
 		}
 		//center colision stream2
 		if (!stream2->enemies.empty()){
-			if(!((this->center->box.x>stream2->enemies.at(0)->box.x+stream2->enemies.at(0)->box.w ||
-			   ((this->center->box.x+this->center->box.w)<stream2->enemies.at(0)->box.x)) ||
-			   (this->center->box.y>stream2->enemies.at(0)->box.y+stream2->enemies.at(0)->box.h ||
-			   (this->center->box.y+this->center->box.h)<stream2->enemies.at(0)->box.y))){
+			if(handleColision(this->center->box,stream2->enemies.at(0)->box)){
 				stream2->enemies.erase(stream2->enemies.begin());
-			}		
+			}			
 		}
 		//center colision stream3
 		if (!stream3->enemies.empty()){
-			if(!((this->center->box.x>stream3->enemies.at(0)->box.x+stream3->enemies.at(0)->box.w ||
-			   ((this->center->box.x+this->center->box.w)<stream3->enemies.at(0)->box.x)) ||
-			   (this->center->box.y>stream3->enemies.at(0)->box.y+stream3->enemies.at(0)->box.h ||
-			   (this->center->box.y+this->center->box.h)<stream3->enemies.at(0)->box.y))){
+			if(handleColision(this->center->box,stream3->enemies.at(0)->box)){
 				stream3->enemies.erase(stream3->enemies.begin());
-			}		
+			}				
 		}
 		//center colision stream4
 		if (!stream4->enemies.empty()){
-			if(!((this->center->box.x>stream4->enemies.at(0)->box.x+stream4->enemies.at(0)->box.w ||
-			   ((this->center->box.x+this->center->box.w)<stream4->enemies.at(0)->box.x)) ||
-			   (this->center->box.y>stream4->enemies.at(0)->box.y+stream4->enemies.at(0)->box.h ||
-			   (this->center->box.y+this->center->box.h)<stream4->enemies.at(0)->box.y))){
+			if(handleColision(this->center->box,stream4->enemies.at(0)->box)){
 				stream4->enemies.erase(stream4->enemies.begin());
-			}		
+			}			
 		}
 }	

@@ -9,4 +9,6 @@ using namespace std;
 
 SDL_Surface * loadImage(const char* img);
 
+bool handleColision(SDL_Rect box1, SDL_Rect box2);
+
 #endif
