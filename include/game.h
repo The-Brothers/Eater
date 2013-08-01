@@ -11,6 +11,7 @@
 #include "player.h"
 #include "stream.h"
 #include "enemy.h"
+#include "healthbar.h"
 
 #define SCREEN_W 400
 #define SCREEN_H 400
@@ -37,6 +38,8 @@ class Game{
 	Stream* stream2;
 	Stream* stream3;
 	Stream* stream4;
+
+	HealthBar* healthbar;
 
 	Text* score;
 

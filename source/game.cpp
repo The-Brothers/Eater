@@ -37,6 +37,7 @@ Game::Game(){
 	this->stream3 = new Stream(3);
 	this->stream4 = new Stream(4);
 
+	this->healthbar = new HealthBar(10);
 }
 
 Game::~Game(){
@@ -107,6 +108,7 @@ void Game::run(){
 		this->stream2->update(delta.get_ticks());
 		this->stream3->update(delta.get_ticks());
 		this->stream4->update(delta.get_ticks());
+		this->healthbar->update(delta.get_ticks());
 
 		this->delta.start();
 		//Render
@@ -120,6 +122,7 @@ void Game::run(){
 		this->stream4->draw();
 
 		this->score->draw();
+		this->healthbar->draw();
 
 		SDL_Flip(screen);
 		
