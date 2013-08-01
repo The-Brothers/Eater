@@ -43,7 +43,10 @@ class Game{
 
 	Text* score;
 
-	int score_count;
+	enum States {menu,inGame,gameOver};
+
+	States currentStatus;
+	int scoreCount;
 public:
 	Game();
 	~Game();
