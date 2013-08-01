@@ -9,9 +9,9 @@ class HealthBar{
 	SDL_Surface *image;
 	SDL_Rect box;
 
-	int health_points;
 
 public:
+	int health_points;
 	HealthBar(int hp);
 	~HealthBar();
 
