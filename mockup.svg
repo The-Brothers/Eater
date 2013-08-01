@@ -27,9 +27,9 @@
      borderopacity="0.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="0"
-     inkscape:zoom="18.497913"
-     inkscape:cx="-64.187916"
-     inkscape:cy="194.38196"
+     inkscape:zoom="4"
+     inkscape:cx="-14.169765"
+     inkscape:cy="245.34496"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -202,145 +202,6 @@
        id="path3858"
        d="m 365,687.3622 0,-30 5,0 0,25 25,0 0,5 -30,0 z"
        style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline" />
-    <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
-       d="m 40,692.3622 0,-30 -5,0 0,25 -25,0 0,5 30,0 z"
-       id="path3889"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
-       id="rect3023"
-       width="4"
-       height="3"
-       x="157"
-       y="879.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
-       id="rect3038"
-       width="4"
-       height="6"
-       x="163"
-       y="876.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
-       id="rect3040"
-       width="4"
-       height="5"
-       x="163"
-       y="876.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
-       id="path3771"
-       sodipodi:cx="195"
-       sodipodi:cy="892.36218"
-       sodipodi:rx="3.5"
-       sodipodi:ry="3.5"
-       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-       transform="translate(-34.550247,-9.5)"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-       sodipodi:ry="3.5"
-       sodipodi:rx="3.5"
-       sodipodi:cy="892.36218"
-       sodipodi:cx="195"
-       id="path3773"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
-       sodipodi:type="arc"
-       transform="translate(-25.050247,-9.5)"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
-       d="m 150,872.36218 0,30 10,0 0,-5 10,0 0,5 10,0 0,-30 -30,0 z"
-       id="rect3019"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
-       id="rect3021"
-       width="24"
-       height="10"
-       x="153"
-       y="876.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
-       id="rect3025"
-       width="3"
-       height="5"
-       x="157"
-       y="879.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="879.36218"
-       x="170"
-       height="5"
-       width="3"
-       id="rect3027"
-       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
-       id="rect3029"
-       width="9"
-       height="5"
-       x="151"
-       y="887.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="887.36218"
-       x="170"
-       height="5"
-       width="9"
-       id="rect3031"
-       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline"
-       id="rect3033"
-       width="30"
-       height="2"
-       x="150"
-       y="893.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="876.36218"
-       x="163"
-       height="6"
-       width="4"
-       id="rect3044"
-       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <rect
        y="942.34937"
        x="109"
@@ -1417,16 +1278,22 @@
        inkscape:connector-curvature="0"
        id="path3979"
        d="m -127.9531,791.54229 c 3.74032,-4.38644 13.62278,-4.98375 16.66236,0 2.47635,4.06025 1.16728,8.54999 4.51274,11.49249 3.17378,2.79151 3.98958,2.43293 7.775267,5.83681 3.63701,3.27019 6.453,9.98363 2.1324,13.7037 -3.826837,3.29495 -10.051147,3.34813 -14.493437,-0.96264 -3.09025,-2.99876 -3.119,-5.5356 -3.20776,-7.3966 -0.21988,-4.61127 -9.08466,0.24615 -13.38157,-4.06374 -5.06435,-5.07961 -4.69879,-13.09959 0,-18.61002 z"
-       style="fill:#ff0000;fill-opacity:1;stroke:#ff8080;stroke-width:3.06856084;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff8080;stroke-width:3.06856084;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/center.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3981"
        d="m -120.40258,795.76834 c -2.76142,0 -5,2.23858 -5,5 0,2.76142 2.23858,5 5,5 2.76142,0 5,-2.23858 5,-5 0,-2.76142 -2.23858,-5 -5,-5 z m 0,2.5625 c 1.45249,0 2.625,1.09057 2.625,2.4375 0,1.34693 -1.17251,2.4375 -2.625,2.4375 -1.45249,0 -2.625,-1.09057 -2.625,-2.4375 0,-1.34693 1.17251,-2.4375 2.625,-2.4375 z"
-       style="fill:#ff8080;fill-opacity:1;stroke:none;display:inline" />
+       style="fill:#ff8080;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/center.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="849.36218"
        x="-68"
        height="3"
@@ -1436,7 +1303,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="846.36218"
        x="-61.999992"
        height="6"
@@ -1446,7 +1313,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="846.36218"
        x="-61.999992"
        height="5"
@@ -1456,7 +1323,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        transform="translate(-259.55024,-39.500051)"
        d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
        sodipodi:ry="3.5"
@@ -1469,7 +1336,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        transform="translate(-250.05024,-39.500051)"
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
@@ -1482,7 +1349,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        inkscape:connector-curvature="0"
        id="path4014"
        d="m -74.999989,842.36213 0,30 10,0 0,-5 10.000002,0 0,5 10,0 0,-30 -30.000002,0 z"
@@ -1490,7 +1357,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="846.36218"
        x="-72"
        height="10"
@@ -1500,7 +1367,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="849.36218"
        x="-68"
        height="5"
@@ -1510,7 +1377,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
        id="rect4020"
        width="3"
@@ -1520,7 +1387,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        y="857.36218"
        x="-74"
        height="5"
@@ -1530,7 +1397,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
        id="rect4024"
        width="9"
@@ -1540,17 +1407,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
-       y="863.36218"
-       x="-75"
-       height="2"
-       width="30"
-       id="rect4026"
-       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
        id="rect4028"
        width="4"
@@ -1563,140 +1420,209 @@
        width="1"
        height="21"
        x="-46"
-       y="842.36218" />
+       y="842.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="842.36218"
        x="-75"
        height="21"
        width="1"
        id="rect4089"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4091"
        width="28"
        height="1"
        x="-74"
-       y="842.36218" />
+       y="842.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="845.36218"
        x="-72"
        height="1"
        width="10"
        id="rect4093"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4095"
        width="10"
        height="1"
        x="-58"
-       y="845.36218" />
+       y="845.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="856.36218"
        x="-72"
        height="1"
        width="24"
        id="rect4097"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="845.36218"
        x="-48"
        height="12"
        width="1"
        id="rect4099"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4101"
        width="1"
        height="12"
        x="-73"
-       y="845.36218" />
+       y="845.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="845.36218"
        x="-62"
        height="6"
        width="1"
        id="rect4103"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4105"
        width="1"
        height="6"
        x="-59"
-       y="845.36218" />
+       y="845.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="851.36218"
        x="-62"
        height="1"
        width="4"
        id="rect4107"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4109"
        width="28"
        height="1"
        x="-74"
-       y="862.36218" />
+       y="862.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="865.36218"
        x="-75"
        height="1"
        width="30"
        id="rect4111"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4113"
        width="10"
        height="1"
        x="-75"
-       y="871.36218" />
+       y="871.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="871.36218"
        x="-55"
        height="1"
        width="10"
        id="rect4115"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4117"
        width="1"
        height="4"
        x="-55"
-       y="867.36218" />
+       y="867.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="867.36218"
        x="-66"
        height="4"
        width="1"
        id="rect4119"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#4a3d33;fill-opacity:1;stroke:none"
        id="rect4121"
        width="1"
        height="5"
        x="-75"
-       y="866.36218" />
+       y="866.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="866.36218"
        x="-46"
        height="5"
        width="1"
        id="rect4123"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="866.36218"
        x="-66"
        height="1"
        width="12"
        id="rect4125"
-       style="fill:#4a3d33;fill-opacity:1;stroke:none" />
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline"
+       d="m -75,863.36218 30,0 0,2 -10.033234,0 0.03323,4 -9.999996,0 0.01969,-4 -10.019698,0 z"
+       id="rect4026"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
        id="rect4127"
@@ -1704,7 +1630,7 @@
        height="1"
        x="-64"
        y="854.36218"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -1714,19 +1640,1132 @@
        width="1"
        id="rect4129"
        style="fill:#e2e3db;fill-opacity:1;stroke:none;display:inline"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/tiago/Projetos/Eater/data/enemy.png"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
        style="fill:#e2e3db;fill-opacity:1;stroke:none;display:inline"
        id="rect4131"
        width="1"
        height="4"
        x="-66"
        y="849.36218" />
+    <rect
+       y="857.36218"
+       x="-53"
+       height="5"
+       width="1"
+       id="rect4134"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#4a3d33;fill-opacity:1;stroke:none"
+       id="rect4136"
+       width="1"
+       height="5"
+       x="-68"
+       y="857.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m -75.019686,863.36218 30,0 0,1 -10.033234,0 0,0 -10,0 0.05292,0 -10.019698,0 z"
+       id="path4142"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4144"
+       d="m -55.999997,865.36218 1.033234,0 0,4 -0.345556,0 0,0 -0.344411,0 0.0018,0 -0.34509,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m -65,865.36218 1.033234,0 0,4 -0.345556,0 0,0 -0.344411,0 0.0018,0 -0.34509,0 z"
+       id="path4146"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4148"
+       d="m -64.000005,868.36218 8.000005,0 0,1 -2.675531,0 0,0 -2.666668,0 0.01411,0 -2.671921,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m -46.033234,864.36218 1.033234,0 0,1 -0.345556,0 0,0 -0.344411,0 0.0018,0 -0.34509,0 z"
+       id="path4150"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4152"
+       d="m -75,864.36218 1.033234,0 0,1 -0.345556,0 0,0 -0.344411,0 0.0018,0 -0.34509,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="857.36218"
+       x="-52"
+       height="1"
+       width="6"
+       id="rect4154"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4156"
+       width="6"
+       height="1"
+       x="-74"
+       y="857.36218" />
+    <rect
+       y="861.36218"
+       x="-74"
+       height="1"
+       width="6"
+       id="rect4158"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4160"
+       width="6"
+       height="1"
+       x="-52"
+       y="861.36218" />
+    <rect
+       y="861.36218"
+       x="-55"
+       height="1"
+       width="2"
+       id="rect4162"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4164"
+       width="2"
+       height="1"
+       x="-55"
+       y="859.36218" />
+    <rect
+       y="857.36218"
+       x="-55"
+       height="1"
+       width="2"
+       id="rect4166"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4168"
+       width="2"
+       height="1"
+       x="-67"
+       y="857.36218" />
+    <rect
+       y="859.36218"
+       x="-67"
+       height="1"
+       width="2"
+       id="rect4170"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4172"
+       width="2"
+       height="1"
+       x="-67"
+       y="861.36218" />
+    <rect
+       y="858.36218"
+       x="-69"
+       height="3"
+       width="1"
+       id="rect4174"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4176"
+       width="1"
+       height="3"
+       x="-74"
+       y="858.36218" />
+    <rect
+       y="858.36218"
+       x="-52"
+       height="3"
+       width="1"
+       id="rect4178"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4180"
+       width="1"
+       height="3"
+       x="-47"
+       y="858.36218" />
+    <rect
+       y="846.36218"
+       x="-49"
+       height="10"
+       width="1"
+       id="rect4182"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4184"
+       width="1"
+       height="6"
+       x="-58"
+       y="846.36218" />
+    <rect
+       y="846.36218"
+       x="-72"
+       height="10"
+       width="1"
+       id="rect4186"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="852.36218"
+       x="-62"
+       height="1"
+       width="5"
+       id="rect4188"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4190"
+       width="5"
+       height="1"
+       x="-54"
+       y="855.36218" />
+    <rect
+       y="846.36218"
+       x="-57"
+       height="1"
+       width="8"
+       id="rect4192"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4194"
+       width="9"
+       height="1"
+       x="-71"
+       y="846.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4196"
+       width="1"
+       height="3"
+       x="-55"
+       y="858.36218" />
+    <rect
+       y="858.36218"
+       x="-66"
+       height="3"
+       width="1"
+       id="rect4198"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       id="rect4200"
+       width="4.0000358"
+       height="3"
+       x="157.01978"
+       y="879.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
+       id="rect4202"
+       width="4.0000358"
+       height="6"
+       x="163.01984"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#6c5353;fill-opacity:1;stroke:none;display:inline"
+       id="rect4204"
+       width="4.0000358"
+       height="5"
+       x="163.01984"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       id="path4206"
+       sodipodi:cx="195"
+       sodipodi:cy="892.36218"
+       sodipodi:rx="3.5"
+       sodipodi:ry="3.5"
+       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+       transform="matrix(1.0000089,0,0,1,-34.532161,-9.5000474)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="m 198.5,892.36218 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+       sodipodi:ry="3.5"
+       sodipodi:rx="3.5"
+       sodipodi:cy="892.36218"
+       sodipodi:cx="195"
+       id="path4208"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       sodipodi:type="arc"
+       transform="matrix(1.0000089,0,0,1,-25.032077,-9.5000474)"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
+       d="m 150.01973,872.36213 0,30 10.00009,0 0,-5 10.00009,0 0,5 10.00009,0 0,-30 -30.00027,0 z"
+       id="path4210"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       id="rect4212"
+       width="24.000214"
+       height="10"
+       x="153.01974"
+       y="876.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       id="rect4214"
+       width="3.0000267"
+       height="5"
+       x="157.01978"
+       y="879.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="879.36218"
+       x="170.0199"
+       height="5"
+       width="3.0000267"
+       id="rect4216"
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       id="rect4218"
+       width="9.0000801"
+       height="5"
+       x="151.01973"
+       y="887.36218"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="887.36218"
+       x="170.0199"
+       height="5"
+       width="9.0000801"
+       id="rect4220"
+       style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="876.36218"
+       x="163.01984"
+       height="6"
+       width="4.0000358"
+       id="rect4222"
+       style="fill:#6c5d53;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="872.36218"
+       x="179.01997"
+       height="21"
+       width="1.0000089"
+       id="rect4224"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4226"
+       width="1.0000089"
+       height="21"
+       x="150.01971"
+       y="872.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="872.36218"
+       x="151.01973"
+       height="1"
+       width="28.00025"
+       id="rect4228"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4230"
+       width="10.000089"
+       height="1"
+       x="153.01974"
+       y="875.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="875.36218"
+       x="167.01987"
+       height="1"
+       width="10.000089"
+       id="rect4232"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4234"
+       width="24.000214"
+       height="1"
+       x="153.01974"
+       y="886.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4236"
+       width="1.0000089"
+       height="12"
+       x="177.01996"
+       y="875.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="875.36218"
+       x="152.01974"
+       height="12"
+       width="1.0000089"
+       id="rect4238"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4240"
+       width="1.0000089"
+       height="6"
+       x="163.01984"
+       y="875.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="875.36218"
+       x="166.01987"
+       height="6"
+       width="1.0000089"
+       id="rect4242"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4244"
+       width="4.0000358"
+       height="1"
+       x="163.01984"
+       y="881.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="892.36218"
+       x="151.01973"
+       height="1"
+       width="28.00025"
+       id="rect4246"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4248"
+       width="30.000267"
+       height="1"
+       x="150.01971"
+       y="895.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="901.36218"
+       x="150.01971"
+       height="1"
+       width="10.000089"
+       id="rect4250"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4252"
+       width="10.000089"
+       height="1"
+       x="170.0199"
+       y="901.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="897.36218"
+       x="170.0199"
+       height="4"
+       width="1.0000089"
+       id="rect4254"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4256"
+       width="1.0000089"
+       height="4"
+       x="159.01981"
+       y="897.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="896.36218"
+       x="150.01971"
+       height="5"
+       width="1.0000089"
+       id="rect4258"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4260"
+       width="1.0000089"
+       height="5"
+       x="179.01997"
+       y="896.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4262"
+       width="12.000107"
+       height="1"
+       x="159.01981"
+       y="896.36218" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4264"
+       d="m 150.01972,893.36218 30.00027,0 0,2 -10.03332,0 0.0332,4 -10.00009,0 0.0197,-4 -10.01979,0 z"
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="884.36218"
+       x="161.01982"
+       height="1"
+       width="8.0000715"
+       id="rect4266"
+       style="fill:#280b0b;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#e2e3db;fill-opacity:1;stroke:none;display:inline"
+       id="rect4268"
+       width="1.0000089"
+       height="4"
+       x="172.01991"
+       y="879.36218" />
+    <rect
+       y="879.36218"
+       x="159.01981"
+       height="4"
+       width="1.0000089"
+       id="rect4270"
+       style="fill:#e2e3db;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline"
+       id="rect4272"
+       width="1.0000089"
+       height="5"
+       x="172.01991"
+       y="887.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       y="887.36218"
+       x="157.01978"
+       height="5"
+       width="1.0000089"
+       id="rect4274"
+       style="fill:#4a3d33;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4276"
+       d="m 150.00003,893.36218 30.00027,0 0,1 -10.03332,0 0,0 -10.00009,0 0.0529,0 -10.01979,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m 169.01989,895.36218 1.03325,0 0,4 -0.34556,0 0,0 -0.34442,0 0.002,0 -0.34509,0 z"
+       id="path4278"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4280"
+       d="m 160.01981,895.36218 1.03324,0 0,4 -0.34555,0 0,0 -0.34442,0 0.002,0 -0.34509,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m 161.01981,898.36218 8.00008,0 0,1 -2.67555,0 0,0 -2.6667,0 0.0141,0 -2.67194,0 z"
+       id="path4282"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4284"
+       d="m 178.98674,894.36218 1.03325,0 0,1 -0.34556,0 0,0 -0.34442,0 0.002,0 -0.34509,0 z"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#b91212;fill-opacity:1;stroke:none;display:inline"
+       d="m 150.01972,894.36218 1.03324,0 0,1 -0.34555,0 0,0 -0.34442,0 0.002,0 -0.34509,0 z"
+       id="path4286"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4288"
+       width="6.0000534"
+       height="1"
+       x="173.01993"
+       y="887.36218" />
+    <rect
+       y="887.36218"
+       x="151.01973"
+       height="1"
+       width="6.0000534"
+       id="rect4290"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4292"
+       width="6.0000534"
+       height="1"
+       x="151.01973"
+       y="891.36218" />
+    <rect
+       y="891.36218"
+       x="173.01993"
+       height="1"
+       width="6.0000534"
+       id="rect4294"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4296"
+       width="2.0000179"
+       height="1"
+       x="170.0199"
+       y="891.36218" />
+    <rect
+       y="889.36218"
+       x="170.0199"
+       height="1"
+       width="2.0000179"
+       id="rect4298"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4300"
+       width="2.0000179"
+       height="1"
+       x="170.0199"
+       y="887.36218" />
+    <rect
+       y="887.36218"
+       x="158.01979"
+       height="1"
+       width="2.0000179"
+       id="rect4302"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4304"
+       width="2.0000179"
+       height="1"
+       x="158.01979"
+       y="889.36218" />
+    <rect
+       y="891.36218"
+       x="158.01979"
+       height="1"
+       width="2.0000179"
+       id="rect4306"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4308"
+       width="1.0000089"
+       height="3"
+       x="156.01978"
+       y="888.36218" />
+    <rect
+       y="888.36218"
+       x="151.01973"
+       height="3"
+       width="1.0000089"
+       id="rect4310"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4312"
+       width="1.0000089"
+       height="3"
+       x="173.01993"
+       y="888.36218" />
+    <rect
+       y="888.36218"
+       x="178.01997"
+       height="3"
+       width="1.0000089"
+       id="rect4314"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4316"
+       width="1.0000089"
+       height="10"
+       x="176.01996"
+       y="876.36218" />
+    <rect
+       y="876.36218"
+       x="167.01987"
+       height="6"
+       width="1.0000089"
+       id="rect4318"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4320"
+       width="1.0000089"
+       height="10"
+       x="153.01974"
+       y="876.36218" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4322"
+       width="5.0000443"
+       height="1"
+       x="163.01984"
+       y="882.36218" />
+    <rect
+       y="885.36218"
+       x="171.01991"
+       height="1"
+       width="5.0000443"
+       id="rect4324"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4326"
+       width="8.0000715"
+       height="1"
+       x="168.01988"
+       y="876.36218" />
+    <rect
+       y="876.36218"
+       x="154.01976"
+       height="1"
+       width="9.0000801"
+       id="rect4328"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="888.36218"
+       x="170.0199"
+       height="3"
+       width="1.0000089"
+       id="rect4330"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/player.png"
+       style="fill:#c68e68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4332"
+       width="1.0000089"
+       height="3"
+       x="159.01981"
+       y="888.36218" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4593"
+       width="24.803368"
+       height="25.47744"
+       x="12.598308"
+       y="666.87384" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       d="m 24.999996,662.37311 c -4.6842,0 -9.36773,1.47214 -12.29833,4.40547 0.76731,6.27888 5.97753,11.14638 12.29833,11.14638 6.3208,0 11.53102,-4.8675 12.29834,-11.14638 -2.93061,-2.93333 -7.61413,-4.40547 -12.29834,-4.40547 z"
+       id="path4558"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
+       d="m 24.999996,662.37311 c -4.45685,0 -8.9127,1.32469 -11.85911,3.98085 1.55343,5.21395 6.27439,9.02326 11.85911,9.02326 5.58473,0 10.30569,-3.80931 11.85911,-9.02326 -2.94641,-2.65616 -7.40226,-3.98085 -11.85911,-3.98085 z"
+       id="path4560"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
+       d="m 24.999996,662.62761 c -4.12715,0 -8.23378,1.23753 -11.16151,3.6946 2.00288,3.83478 6.23861,6.50727 11.16151,6.50727 4.92291,0 9.15864,-2.67249 11.16152,-6.50727 -2.92773,-2.45707 -7.03437,-3.6946 -11.16152,-3.6946 z"
+       id="path4562"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:none"
+       d="m 24.999996,662.37311 c -4.73928,0 -9.47858,1.50909 -12.40168,4.51163 -5.8462104,6.00509 0,25.47744 0,25.47744 l 4.13389,0 c 0,0 -4.87184,-16.22696 0,-21.2312 3.89748,-4.0034 12.6381,-4.0034 16.53558,0 4.87185,5.00424 0,21.2312 0,21.2312 l 4.1339,0 c 0,0 5.84621,-19.47235 0,-25.47744 -2.92311,-3.00254 -7.6624,-4.51163 -12.40169,-4.51163 z"
+       id="path4555"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#1c241f;fill-opacity:1;stroke:none"
+       d="m 24.999996,662.36222 c -0.2746,0 -0.55253,0.0164 -0.82678,0.0265 4.45895,0.16469 8.82117,1.65652 11.57491,4.48509 5.84621,6.00509 0,25.47744 0,25.47744 l 1.65356,0 c 0,0 5.84621,-19.47235 0,-25.47744 -2.92311,-3.00254 -7.6624,-4.51163 -12.40169,-4.51163 z m -1.65356,5.75897 c -3.15952,0 -6.31905,0.9972 -8.26778,2.9989 -4.87185,5.00425 0,21.2312 0,21.2312 l 1.65355,0 c 0,0 -4.87184,-16.22695 0,-21.2312 1.77938,-1.82773 4.56443,-2.81351 7.44101,-2.97237 -0.2738,-0.0151 -0.55218,-0.0265 -0.82678,-0.0265 z"
+       id="path4609"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#222b00;fill-opacity:1;stroke:none"
+       d="m 31.614226,689.80355 3.30712,1.69849 -0.82678,-4.24624 1.65356,4.24624 2.48033,-7.64323 -1.65355,7.64323 3.30711,-1.69849 -4.13389,2.54774 -0.82678,0 z"
+       id="rect4566"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4596"
+       d="m 10.944756,687.2558 4.1339,4.24624 -2.48034,-11.04022 3.30711,11.04022 0.82678,-12.73872 0,12.73872 2.48034,-7.64323 -1.65356,8.49248 -2.48033,0 z"
+       style="fill:#005522;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#37c837;fill-opacity:1;stroke:none"
+       d="m 11.151456,687.2558 4.13389,4.24624 -2.48034,-11.04022 3.30712,11.04022 0.82678,-12.73872 0,12.73872 2.48033,-7.64323 -1.65355,8.49248 -2.48034,0 z"
+       id="path4598"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4600"
+       d="m 31.459206,689.80355 3.30712,1.69849 -0.82678,-4.24624 1.65356,4.24624 2.48033,-7.64323 -1.65355,7.64323 3.30711,-1.69849 -3.20377,2.54774 -1.7569,0 z"
+       style="fill:#00aa88;fill-opacity:1;stroke:none" />
+    <rect
+       y="846.31104"
+       x="-122.40169"
+       height="25.47744"
+       width="24.803368"
+       id="rect4614"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4616"
+       d="m -110,841.81033 c -4.6842,0 -9.36773,1.47214 -12.29833,4.40547 0.76731,6.27888 5.97753,11.14638 12.29833,11.14638 6.3208,0 11.53102,-4.8675 12.29834,-11.14638 -2.93061,-2.93333 -7.61413,-4.40547 -12.29834,-4.40547 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4618"
+       d="m -110,841.81033 c -4.45685,0 -8.9127,1.32469 -11.85911,3.98085 1.55343,5.21395 6.27439,9.02326 11.85911,9.02326 5.58473,0 10.30569,-3.80931 11.85911,-9.02326 -2.94641,-2.65616 -7.40226,-3.98085 -11.85911,-3.98085 z"
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4620"
+       d="m -110,842.06483 c -4.12715,0 -8.23378,1.23753 -11.16151,3.6946 2.00288,3.83478 6.23861,6.50727 11.16151,6.50727 4.92291,0 9.15864,-2.67249 11.16152,-6.50727 -2.92773,-2.45707 -7.03437,-3.6946 -11.16152,-3.6946 z"
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4622"
+       d="m -110,841.81033 c -4.73928,0 -9.47858,1.50909 -12.40168,4.51163 -5.84621,6.00509 0,25.47744 0,25.47744 l 4.13389,0 c 0,0 -4.87184,-16.22696 0,-21.2312 3.89748,-4.0034 12.6381,-4.0034 16.53558,0 4.87185,5.00424 0,21.2312 0,21.2312 l 4.1339,0 c 0,0 5.84621,-19.47235 0,-25.47744 -2.92311,-3.00254 -7.6624,-4.51163 -12.40169,-4.51163 z"
+       style="fill:#483e37;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4624"
+       d="m -110,841.79944 c -0.2746,0 -0.55253,0.0164 -0.82678,0.0265 4.45895,0.16469 8.82117,1.65652 11.57491,4.48509 5.84621,6.00509 0,25.47744 0,25.47744 l 1.65356,0 c 0,0 5.84621,-19.47235 0,-25.47744 -2.92311,-3.00254 -7.6624,-4.51163 -12.40169,-4.51163 z m -1.65356,5.75897 c -3.15952,0 -6.31905,0.9972 -8.26778,2.9989 -4.87185,5.00425 0,21.2312 0,21.2312 l 1.65355,0 c 0,0 -4.87184,-16.22695 0,-21.2312 1.77938,-1.82773 4.56443,-2.81351 7.44101,-2.97237 -0.2738,-0.0151 -0.55218,-0.0265 -0.82678,-0.0265 z"
+       style="fill:#1c241f;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4626"
+       d="m -103.38577,869.24077 3.30712,1.69849 -0.82678,-4.24624 1.65356,4.24624 2.48033,-7.64323 -1.65355,7.64323 3.30711,-1.69849 -4.13389,2.54774 -0.82678,0 z"
+       style="fill:#222b00;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#005522;fill-opacity:1;stroke:none"
+       d="m -124.05524,866.69302 4.1339,4.24624 -2.48034,-11.04022 3.30711,11.04022 0.82678,-12.73872 0,12.73872 2.48034,-7.64323 -1.65356,8.49248 -2.48033,0 z"
+       id="path4628"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4630"
+       d="m -123.84854,866.69302 4.13389,4.24624 -2.48034,-11.04022 3.30712,11.04022 0.82678,-12.73872 0,12.73872 2.48033,-7.64323 -1.65355,8.49248 -2.48034,0 z"
+       style="fill:#37c837;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#00aa88;fill-opacity:1;stroke:none"
+       d="m -103.54079,869.24077 3.30712,1.69849 -0.82678,-4.24624 1.65356,4.24624 2.48033,-7.64323 -1.65355,7.64323 3.30711,-1.69849 -3.20377,2.54774 -1.7569,0 z"
+       id="path4632"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/tiago/Projetos/Eater/data/stream1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
