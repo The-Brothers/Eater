@@ -24,6 +24,7 @@ void HealthBar::update(Uint32 delta){
 }
 
 void HealthBar::removeHp(int quantity){
-	this->health_points -= quantity;
+	if(this->health_points!=0)
+		this->health_points -= quantity;
 }
 
