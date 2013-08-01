@@ -2,7 +2,7 @@
 #include "util.h"
 
 Player::Player(){
-	this->image = carregaImagem("data/player.png");
+	this->image = loadImage("data/player.png");
 	
 	this->box.w = 30;
 	this->box.h = 30;
