@@ -25,7 +25,6 @@ Game::Game(){
 
 	this->scoreCount = 0;
 	this->currentStatus=inGame;
-
 	char temp[5];
 	sprintf(temp,"%d",this->scoreCount);
 	this->score = new Text(string(temp),32,180,0);
@@ -39,8 +38,12 @@ Game::Game(){
 	this->stream4 = new Stream(4);
 
 	this->healthbar = new HealthBar(10);
+
 	this->gamemusic= new Sound();
 	this->gamemusic->loadSound("data/sound/music.ogg");
+
+	//Background
+	this->background = loadImage("data/background.png");
 }
 
 Game::~Game(){
@@ -115,7 +118,7 @@ void Game::run(){
 
 		this->delta.start();
 		//Render
-		SDL_FillRect(screen,&screen->clip_rect,SDL_MapRGB(screen->format,0x00,0x00,0x00)); //paints everything with black
+		SDL_BlitSurface(this->background,NULL,SDL_GetVideoSurface(),NULL);
 		this->center->draw();
 		this->player->draw();
 

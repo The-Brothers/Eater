@@ -35,6 +35,7 @@ class Game{
  	int delayticks;
 
 	//Game stuff
+	SDL_Surface *background;
 	Center* center;
 	Player* player;
 	Stream* stream1;
