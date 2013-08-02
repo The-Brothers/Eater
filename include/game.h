@@ -10,6 +10,7 @@
 #include "text.h"
 
 #include "center.h"
+#include "sound.h"
 #include "player.h"
 #include "stream.h"
 #include "enemy.h"
@@ -47,7 +48,7 @@ class Game{
 
 	enum States {menu,inGame,gameOver};
 	
-	Mix_Chunk *gamemusic;
+	Sound *gamemusic;
 
 	States currentStatus;
 	int scoreCount;
@@ -58,7 +59,6 @@ public:
 	void insertEnemies();
 	void centerColision();
 	void playerColision();
-	void makeSound();
 };
 
 #endif
