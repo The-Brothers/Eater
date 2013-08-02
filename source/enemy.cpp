@@ -2,7 +2,7 @@
 
 Enemy::Enemy(int origin){
 	this->image = loadImage("data/enemy.png");
-
+	
 	this->box.h = 30;
 	this->box.w = 30;
 
@@ -16,6 +16,7 @@ Enemy::Enemy(int origin){
 			this->deltay = this->speed;
 		break;
 		case 2:
+			this->invert();
 			this->x = this->box.x = 365;
 			this->y = this->box.y = 10;
 			this->deltax = -1 * this->speed;
@@ -28,6 +29,7 @@ Enemy::Enemy(int origin){
 			this->deltay = -1 * this->speed;
 		break;
 		case 4:
+			this->invert();
 			this->x = this->box.x = 365;
 			this->y = this->box.y = 365;
 			this->deltax = -1 * this->speed;
@@ -50,4 +52,8 @@ void Enemy::update(Uint32 delta){
 	this->y += this->deltay * delta/1000.0f;
 	this->box.x = (int) this->x;
 	this->box.y = (int) this->y;
+}
+
+void Enemy::invert(){
+	this->image=flipImage(this->image,FLIP_HORIZONTAL);
 }

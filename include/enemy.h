@@ -22,6 +22,7 @@ public:
 
 	void draw();
 	void update(Uint32 delta);
+	void invert();
 };
 
 #endif
