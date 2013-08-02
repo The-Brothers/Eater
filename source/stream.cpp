@@ -26,6 +26,14 @@ Stream::Stream(int id){
 	this->box.w = 30;
 	this->box.h = 30;
 
+	for(int i=0;i<6;i++){
+		this->clip[i].x = i*this->box.w;
+		this->clip[i].y = 0;
+		this->clip[i].h = this->box.h;
+		this->clip[i].w = this->box.w;
+	}
+
+	this->frame = 0;
 }
 
 Stream::~Stream(){
@@ -33,7 +41,7 @@ Stream::~Stream(){
 }
 
 void Stream::draw(){
-	SDL_BlitSurface(this->image,NULL,SDL_GetVideoSurface(),&this->box);
+	SDL_BlitSurface(this->image,&this->clip[(int) (this->frame)],SDL_GetVideoSurface(),&this->box);
 	drawEnemies();
 }
 
@@ -41,6 +49,10 @@ void Stream::update(Uint32 delta){
 	for(int i=0;i<(int)this->enemies.size();i++){
 		this->enemies[i]->update(delta);
 	}
+
+	this->frame+=0.2f;
+	if(this->frame>=5)
+		this->frame=0.f;
 }
 
 void Stream::drawEnemies(){

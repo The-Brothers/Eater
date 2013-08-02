@@ -13,6 +13,8 @@ class Stream{
 	SDL_Surface* image;
 	SDL_Rect box;
 
+	SDL_Rect clip[6];
+	double frame;
 
 	int id;
 
