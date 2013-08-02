@@ -6,6 +6,8 @@ Center::Center(){
 	this->box.y = 180;
 	this->box.w = 40;
 	this->box.h = 40;
+	this->hurt=new Sound();
+	this->hurt->loadSound("data/sound/hurt.ogg");
 }
 
 Center::~Center(){

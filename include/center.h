@@ -3,11 +3,12 @@
 
 #include "SDL/SDL.h"
 #include "util.h"
+#include "sound.h"
 
 class Center{
 	SDL_Surface* image;
-
 public:
+	Sound *hurt;
 	SDL_Rect box;
 	Center();
 	~Center();

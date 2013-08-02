@@ -53,7 +53,7 @@ Game::~Game(){
 }
 
 void Game::run(){
-	gamemusic->playSound();
+	gamemusic->playSound(1);
 	this->delta.start();
 	while(this->running && this->currentStatus!=gameOver){
 		this->start = SDL_GetTicks();
@@ -217,6 +217,7 @@ void Game::centerColision(){
 			if(handleColision(this->center->box,stream1->enemies.at(0)->box)){
 				stream1->enemies.erase(stream1->enemies.begin());
 				this->healthbar->removeHp(1);
+				this->center->hurt->playSound(0);
 			}		
 		}
 		//center colision stream2
@@ -224,6 +225,7 @@ void Game::centerColision(){
 			if(handleColision(this->center->box,stream2->enemies.at(0)->box)){
 				stream2->enemies.erase(stream2->enemies.begin());
 				this->healthbar->removeHp(1);
+				this->center->hurt->playSound(0);
 			}			
 		}
 		//center colision stream3
@@ -231,6 +233,7 @@ void Game::centerColision(){
 			if(handleColision(this->center->box,stream3->enemies.at(0)->box)){
 				stream3->enemies.erase(stream3->enemies.begin());
 				this->healthbar->removeHp(1);
+				this->center->hurt->playSound(0);
 			}				
 		}
 		//center colision stream4
@@ -238,6 +241,7 @@ void Game::centerColision(){
 			if(handleColision(this->center->box,stream4->enemies.at(0)->box)){
 				stream4->enemies.erase(stream4->enemies.begin());
 				this->healthbar->removeHp(1);
+				this->center->hurt->playSound(0);
 			}			
 		}
 }	

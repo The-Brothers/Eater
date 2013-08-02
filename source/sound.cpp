@@ -16,6 +16,6 @@ void Sound::loadSound(const char* sound){
 	this->music = Mix_LoadWAV(sound);
 }
 
-void Sound::playSound(){
-	Mix_PlayChannel(-1,this->music, -1);
+void Sound::playSound(int repeat){
+	Mix_PlayChannel(-1,this->music, repeat);
 }
