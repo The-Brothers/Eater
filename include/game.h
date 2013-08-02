@@ -4,6 +4,8 @@
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
 #include "SDL/SDL_ttf.h"
+#include "SDL/SDL_mixer.h"
+
 #include "timer.h"
 #include "text.h"
 
@@ -44,6 +46,8 @@ class Game{
 	Text* score;
 
 	enum States {menu,inGame,gameOver};
+	
+	Mix_Chunk *gamemusic;
 
 	States currentStatus;
 	int scoreCount;
@@ -54,6 +58,7 @@ public:
 	void insertEnemies();
 	void centerColision();
 	void playerColision();
+	void makeSound();
 };
 
 #endif

@@ -39,16 +39,21 @@ Game::Game(){
 	this->stream4 = new Stream(4);
 
 	this->healthbar = new HealthBar(10);
+
+	//init audio
+	Mix_OpenAudio( 22050,AUDIO_S16SYS,2,640 );
+	this->gamemusic = Mix_LoadWAV("data/sound/music.ogg");
 }
 
 Game::~Game(){
 	SDL_FreeSurface(this->screen);
+	Mix_CloseAudio();
 	TTF_Quit();
 	SDL_Quit();
 }
 
 void Game::run(){
-
+	makeSound();
 	this->delta.start();
 	while(this->running && this->currentStatus!=gameOver){
 		this->start = SDL_GetTicks();
@@ -236,3 +241,7 @@ void Game::centerColision(){
 			}			
 		}
 }	
+
+void Game::makeSound(){
+	Mix_PlayChannel(-1,this->gamemusic, -1);
+}
