@@ -7,19 +7,11 @@
 #include <iostream>
 using namespace std;
 
-Game::Game(){
+Game::Game(SDL_Surface * screen){
 	srand (time(NULL));
-	if(SDL_Init(SDL_INIT_EVERYTHING) == -1)
-		cout << "SDL not initialized." << endl;
-	
-	if(TTF_Init() == -1)
-		cout << "TTF not initialized." << endl;
-
-	this->screen = SDL_SetVideoMode(SCREEN_W,SCREEN_H,SCREEN_BPP,SDL_SWSURFACE);
-	SDL_WM_SetCaption("Eater",NULL);
-	TTF_Init();
 	this->running = true;
 
+	this->screen=screen;
 	//Game stuff
 	this->delayticks=0;
 
@@ -40,16 +32,13 @@ Game::Game(){
 	this->healthbar = new HealthBar(10);
 
 	this->gamemusic= new Sound();
-	this->gamemusic->loadSound("data/sound/music.ogg");
+	this->gamemusic->loadSound("data/sound/get_lucky.ogg");
 
 	//Background
 	this->background = loadImage("data/background.png");
 }
 
 Game::~Game(){
-	SDL_FreeSurface(this->screen);
-	TTF_Quit();
-	SDL_Quit();
 }
 
 void Game::run(){
@@ -63,6 +52,7 @@ void Game::run(){
 				case SDL_QUIT:
 					this->running = false;
 				break;
+
 				case SDL_KEYDOWN:
                     switch (events.key.keysym.sym) {                    	
                     	case SDLK_1:
@@ -81,29 +71,44 @@ void Game::run(){
                     		this->stream4->insertEnemy();
                     	break;
 
+                    	case SDLK_m:
+                    		gamemusic->mute();
+                    	break;
+
+                    	case SDLK_u:
+                    		gamemusic->unMute();
+                    	break;
+
                     	case SDLK_UP:
                     		this->player->move(UP);                    		
                     	break;
+
                     	case SDLK_DOWN:
                     		this->player->move(DOWN);
                     	break;
+
                     	case SDLK_RIGHT:
                     		this->player->move(RIGHT);
                     	break;
+
                     	case SDLK_LEFT:
                     		this->player->move(LEFT);
                     	break;
+
                     	case SDLK_ESCAPE:
                         	this->running = false;
                         break;
+
                         default:;
                     }
+                break;
 			}
 		}
 
 		insertEnemies();
 	    playerColision();
 	    centerColision();
+
 		if(this->healthbar->health_points==0)
 			this->currentStatus=gameOver;
 
@@ -117,6 +122,7 @@ void Game::run(){
 		this->healthbar->update(delta.getTicks());
 
 		this->delta.start();
+
 		//Render
 		SDL_BlitSurface(this->background,NULL,SDL_GetVideoSurface(),NULL);
 		this->center->draw();
@@ -161,7 +167,6 @@ void Game::insertEnemies(){
 	    	break;
 		}
 	}
-
 }
 
 void Game::playerColision(){

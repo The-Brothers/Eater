@@ -54,7 +54,7 @@ class Game{
 	States currentStatus;
 	int scoreCount;
 public:
-	Game();
+	Game(SDL_Surface * screen);
 	~Game();
 	void run();
 	void insertEnemies();

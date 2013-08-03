@@ -19,3 +19,11 @@ void Sound::loadSound(const char* sound){
 void Sound::playSound(int repeat){
 	Mix_PlayChannel(-1,this->music, repeat);
 }
+
+void Sound::mute(){
+	Mix_Volume(-1,0);
+}
+
+void Sound::unMute(){
+	Mix_Volume(-1,100);
+}

@@ -12,6 +12,8 @@ public:
 	~Sound();
 	void loadSound(const char* sound);
 	void playSound(int repeat);
+	void mute();
+	void unMute();
 };
 
 #endif
