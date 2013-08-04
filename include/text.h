@@ -38,19 +38,19 @@ class Text{
 
 	RenderType renderType;
 
-public:
-	Text(string _text, int _fontsize, int x, int y);
-	~Text();
+	public:
+		Text(string _text, int _fontsize, int x, int y);
+		~Text();
 
-	void draw();
-	void update();
+		void draw();
+		void update();
 
-	void setText(string _text);
-	void setColor(Color _color);
-	void setShadedColor(Color _color);
-	void setFontSize(int size);
-	void setFont(string _fontpath);
-	void setRenderType(int _renderType);
+		void setText(string _text);
+		void setColor(Color _color);
+		void setShadedColor(Color _color);
+		void setFontSize(int size);
+		void setFont(string _fontpath);
+		void setRenderType(int _renderType);
 
 };
 
