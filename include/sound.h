@@ -7,13 +7,19 @@ class Sound{
 
 	Mix_Chunk *music;
 
+	// Audio Types
+	#define SFX 1
+	#define MUSIC 2
+
+
 public:
 	Sound();
 	~Sound();
 	void loadSound(const char* sound);
-	void playSound(int repeat);
+	void playSound(int type, int repeat);
 	void mute();
 	void unMute();
+	void setVolume(int type, int volume);
 };
 
 #endif

@@ -8,6 +8,7 @@ Center::Center(){
 	this->box.h = 40;
 	this->hurt=new Sound();
 	this->hurt->loadSound("data/sound/hurt.ogg");
+	this->hurt->setVolume(SFX,30);
 }
 
 Center::~Center(){
