@@ -9,13 +9,14 @@ int main(){
 	Gui * menu;
 	int state;
 	state=MENU;
+	menu = new Gui(video->getScreen(),&state);
+	game = new Game(video->getScreen(), &state);
+	
 	do{		
 		if(state==MENU || state==GAMEOVER ){
-			menu = new Gui(video->getScreen(),&state);
 			menu->run();
 		}
 		if (state==INGAME){
-			game = new Game(video->getScreen(), &state);
 			game->run();
 		}
 	} while (state!=EXIT);

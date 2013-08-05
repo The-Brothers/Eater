@@ -9,8 +9,7 @@ using namespace std;
 
 Game::Game(SDL_Surface * screen, int *state){
 	srand (time(NULL));
-	this->running = true;
-
+	
 	this->screen=screen;
 	//Game stuff
 	this->delayticks=0;
@@ -44,6 +43,7 @@ Game::~Game(){
 void Game::run(){
 	gamemusic->playSound(MUSIC,1);
 	this->delta.start();
+	this->running = true;
 	while(this->running && *this->currentStatus!=GAMEOVER){
 		this->start = SDL_GetTicks();
 		//Events
