@@ -7,6 +7,15 @@
 
 using namespace std;
 
+
+#define MENU 1
+#define INGAME 2
+#define INGAMEMENU 3
+#define GAMEOVER 4
+#define EXIT 5
+
+#define FPS 30
+
 //Flip flags
 #define  FLIP_VERTICAL  1
 #define  FLIP_HORIZONTAL  2

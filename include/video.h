@@ -7,7 +7,7 @@
 #define SCREEN_H 400
 #define SCREEN_BPP 32
 
-#define FPS 30
+
 
 class Video{
 	SDL_Surface* screen; //The Video screen

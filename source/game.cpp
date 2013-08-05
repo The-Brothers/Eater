@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-Game::Game(SDL_Surface * screen){
+Game::Game(SDL_Surface * screen, int *state){
 	srand (time(NULL));
 	this->running = true;
 
@@ -16,7 +16,7 @@ Game::Game(SDL_Surface * screen){
 	this->delayticks=0;
 
 	this->scoreCount = 0;
-	this->currentStatus=inGame;
+	this->currentStatus=state;
 	char temp[5];
 	sprintf(temp,"%d",this->scoreCount);
 	this->score = new Text(string(temp),32,180,0);
@@ -44,13 +44,14 @@ Game::~Game(){
 void Game::run(){
 	gamemusic->playSound(MUSIC,1);
 	this->delta.start();
-	while(this->running && this->currentStatus!=gameOver){
+	while(this->running && *this->currentStatus!=GAMEOVER){
 		this->start = SDL_GetTicks();
 		//Events
 		while(SDL_PollEvent(&this->events)){
 			switch(this->events.type){
 				case SDL_QUIT:
 					this->running = false;
+					*this->currentStatus=EXIT;
 				break;
 
 				case SDL_KEYDOWN:
@@ -97,6 +98,7 @@ void Game::run(){
 
                     	case SDLK_ESCAPE:
                         	this->running = false;
+                        	*this->currentStatus=MENU;
                         break;
 
                         default:;
@@ -110,7 +112,7 @@ void Game::run(){
 	    centerColision();
 
 		if(this->healthbar->health_points==0)
-			this->currentStatus=gameOver;
+			*this->currentStatus=GAMEOVER;
 
 		//Logic
 	    this->score->update();
