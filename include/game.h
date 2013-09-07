@@ -49,6 +49,7 @@ public:
 	Game(SDL_Surface * screen, int *state);
 	~Game();
 	void run();
+	void init();
 	void insertEnemies();
 	void centerColision();
 	void playerColision();

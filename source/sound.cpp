@@ -4,7 +4,7 @@
 using namespace std;
 
 Sound::Sound(){
-	Mix_OpenAudio( 22050,AUDIO_S16SYS,2,640 );
+	Mix_OpenAudio( 22050,AUDIO_S16SYS,1,640 );
 }
 
 Sound::~Sound(){

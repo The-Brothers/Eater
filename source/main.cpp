@@ -11,9 +11,12 @@ int main(){
 	state=MENU;
 	menu = new Gui(video->getScreen(),&state);
 	game = new Game(video->getScreen(), &state);
-	
+
 	do{		
-		if(state==MENU || state==GAMEOVER ){
+		if(state==MENU){
+			menu->run();
+		}
+		if(state==GAMEOVER){
 			menu->run();
 		}
 		if (state==INGAME){

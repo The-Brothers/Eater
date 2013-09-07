@@ -14,12 +14,7 @@ Game::Game(SDL_Surface * screen, int *state){
 	//Game stuff
 	this->delayticks=0;
 
-	this->scoreCount = 0;
 	this->currentStatus=state;
-	char temp[5];
-	sprintf(temp,"%d",this->scoreCount);
-	this->score = new Text(string(temp),32,180,0);
-	this->score->setColor(WHITE);
 	this->center = new Center();
 	this->player = new Player();
 
@@ -40,12 +35,23 @@ Game::Game(SDL_Surface * screen, int *state){
 Game::~Game(){
 }
 
+void Game::init(){
+	this->scoreCount = 0;
+	char temp[5];
+	sprintf(temp,"%d",this->scoreCount);
+	this->score = new Text(string(temp),32,180,0);
+	this->score->setColor(WHITE);	
+	this->healthbar->health_points=10;
+}
+
 void Game::run(){
+	this->init();
 	gamemusic->playSound(MUSIC,1);
 	this->delta.start();
 	this->running = true;
 	while(this->running && *this->currentStatus!=GAMEOVER){
 		this->start = SDL_GetTicks();
+		
 		//Events
 		while(SDL_PollEvent(&this->events)){
 			switch(this->events.type){

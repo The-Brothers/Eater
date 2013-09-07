@@ -28,6 +28,7 @@ Gui::~Gui(){
 void Gui::run(){
 	this->music->playSound(MUSIC,1);
 	this->running=true;
+	*this->currentstate=MENU;
 	while(this->running){
 		//Events
 		while(SDL_PollEvent(&this->events)){
