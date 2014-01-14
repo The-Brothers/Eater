@@ -9,10 +9,10 @@ Authors
 
 TODO
 -------
-	- Menus
-	- HUD
-	- Pause
-	- Level progression
+	[ ] Menus
+	[ ] HUD
+	[ ] Pause
+	[ ] Level progression
 
 
 Changelog:
