@@ -1,7 +1,11 @@
 #include "healthbar.h"
 
 HealthBar::HealthBar(int hp){
-	this->image = loadImage("data/hp.png");
+	#ifdef PS3
+		this->image = loadImage("/dev_hdd0/game/EATER0001/data/hp.png");
+	#else
+		this->image = loadImage("data/hp.png");
+	#endif
 	this->box.x = 125;
 	this->box.y = 360;
 	this->health_points = hp;

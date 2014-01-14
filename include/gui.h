@@ -9,6 +9,11 @@
 #include "text.h"
 
 #include "sound.h"
+
+#ifdef PS3
+	#include <io/pad.h>
+#endif
+
 class Gui{
 
 	SDL_Surface* screen; //The gui screen
@@ -24,10 +29,14 @@ class Gui{
 	Sound *music;
 	int * currentstate;
 
+#ifdef PS3
+	padInfo padinfo;
+  	padData paddata;
+#endif
+
 public:
 	Gui(SDL_Surface * screen,  int *state);
 	~Gui();
 	void run();
 };
-
 #endif

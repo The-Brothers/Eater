@@ -5,11 +5,20 @@
 #include "text.h"
 
 #include <iostream>
+
+#ifdef PS3
+	#include <sysutil/msg.h>
+	#include <sysutil/sysutil.h>
+#endif
+
 using namespace std;
 
 Game::Game(SDL_Surface * screen, int *state){
 	srand (time(NULL));
-	
+	#ifdef PS3
+		debugInit();
+	#endif
+
 	this->screen=screen;
 	//Game stuff
 	this->delayticks=0;
@@ -26,10 +35,18 @@ Game::Game(SDL_Surface * screen, int *state){
 	this->healthbar = new HealthBar(10);
 
 	this->gamemusic= new Sound();
-	this->gamemusic->loadSound("data/sound/get_lucky.ogg");
+	#ifdef PS3
+		this->gamemusic->loadSound("/dev_hdd0/game/EATER0001/data/sound/get_lucky.ogg");
+	#else
+		this->gamemusic->loadSound("data/sound/get_lucky.ogg");
+	#endif
 
 	//Background
-	this->background = loadImage("data/background.png");
+	#ifdef PS3
+		this->background = loadImage("/dev_hdd0/game/EATER0001/data/background.png");
+	#else
+		this->background = loadImage("data/background.png");
+	#endif
 }
 
 Game::~Game(){
@@ -52,67 +69,92 @@ void Game::run(){
 	while(this->running && *this->currentStatus!=GAMEOVER){
 		this->start = SDL_GetTicks();
 		
-		//Events
-		while(SDL_PollEvent(&this->events)){
-			switch(this->events.type){
-				case SDL_QUIT:
-					this->running = false;
-					*this->currentStatus=EXIT;
-				break;
+		#ifdef PS3
+			ioPadGetInfo (&this->padinfo);
+		    for(int i = 0; i < 2; i++) {
+		        if(this->padinfo.status[i]) {
+		            ioPadGetData (i, &paddata);
+		            if(paddata.BTN_START){
+		            	this->running = false;
+						*this->currentStatus=EXIT;
+		            }
+		            if(paddata.BTN_UP){
+		            	this->player->move(UP);
+		            }
+		            if(paddata.BTN_DOWN){
+		            	this->player->move(DOWN);
+		            }
+		            if(paddata.BTN_RIGHT){
+		            	this->player->move(RIGHT);
+		            }
+		            if(paddata.BTN_LEFT) {
+		            	this->player->move(LEFT);
+		            }
+		           
+		        }
+		    }
+    	#else
+			//Events
+			while(SDL_PollEvent(&this->events)){
+				switch(this->events.type){
+					case SDL_QUIT:
+						this->running = false;
+						*this->currentStatus=EXIT;
+					break;
 
-				case SDL_KEYDOWN:
-                    switch (events.key.keysym.sym) {                    	
-                    	case SDLK_1:
-                    		this->stream1->insertEnemy();
-                    	break;
+					case SDL_KEYDOWN:
+	                    switch (events.key.keysym.sym) {                    	
+	                    	case SDLK_1:
+	                    		this->stream1->insertEnemy();
+	                    	break;
 
-                    	case SDLK_2:
-                    		this->stream2->insertEnemy();
-                    	break;
+	                    	case SDLK_2:
+	                    		this->stream2->insertEnemy();
+	                    	break;
 
-                    	case SDLK_3:
-                    		this->stream3->insertEnemy();
-                    	break;
+	                    	case SDLK_3:
+	                    		this->stream3->insertEnemy();
+	                    	break;
 
-                    	case SDLK_4:
-                    		this->stream4->insertEnemy();
-                    	break;
+	                    	case SDLK_4:
+	                    		this->stream4->insertEnemy();
+	                    	break;
 
-                    	case SDLK_m:
-                    		gamemusic->mute();
-                    	break;
+	                    	case SDLK_m:
+	                    		gamemusic->mute();
+	                    	break;
 
-                    	case SDLK_u:
-                    		gamemusic->unMute();
-                    	break;
+	                    	case SDLK_u:
+	                    		gamemusic->unMute();
+	                    	break;
 
-                    	case SDLK_UP:
-                    		this->player->move(UP);                    		
-                    	break;
+	                    	case SDLK_UP:
+	                    		this->player->move(UP);                    		
+	                    	break;
 
-                    	case SDLK_DOWN:
-                    		this->player->move(DOWN);
-                    	break;
+	                    	case SDLK_DOWN:
+	                    		this->player->move(DOWN);
+	                    	break;
 
-                    	case SDLK_RIGHT:
-                    		this->player->move(RIGHT);
-                    	break;
+	                    	case SDLK_RIGHT:
+	                    		this->player->move(RIGHT);
+	                    	break;
 
-                    	case SDLK_LEFT:
-                    		this->player->move(LEFT);
-                    	break;
+	                    	case SDLK_LEFT:
+	                    		this->player->move(LEFT);
+	                    	break;
 
-                    	case SDLK_ESCAPE:
-                        	this->running = false;
-                        	*this->currentStatus=MENU;
-                        break;
+	                    	case SDLK_ESCAPE:
+	                        	this->running = false;
+	                        	*this->currentStatus=MENU;
+	                        break;
 
-                        default:;
-                    }
-                break;
+	                        default:;
+	                    }
+	                break;
+				}
 			}
-		}
-
+		#endif
 		insertEnemies();
 	    playerColision();
 	    centerColision();

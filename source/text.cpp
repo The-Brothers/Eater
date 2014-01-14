@@ -12,7 +12,11 @@ Text::Text(string _text, int _fontsize, int x, int y){
 	this->shadedColor = _color;
 	
 	this->fontsize = _fontsize;
-	this->font = TTF_OpenFont("data/Arista.ttf",this->fontsize);
+	#ifdef PS3
+		this->font = TTF_OpenFont("/dev_hdd0/game/EATER0001/data/Arista.ttf",this->fontsize);
+	#else
+		this->font = TTF_OpenFont("data/Arista.ttf",this->fontsize);
+	#endif
 	if(this->font==NULL)
 		cout << TTF_GetError() << endl;
 	this->text = _text;

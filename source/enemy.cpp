@@ -1,7 +1,11 @@
 #include "enemy.h"
 
 Enemy::Enemy(int origin){
-	this->image = loadImage("data/enemy.png");
+	#ifdef PS3
+		this->image = loadImage("/dev_hdd0/game/EATER0001/data/enemy.png");
+	#else
+		this->image = loadImage("data/enemy.png");
+	#endif
 	
 	this->box.h = 30;
 	this->box.w = 30;

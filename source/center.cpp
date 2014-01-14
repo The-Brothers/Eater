@@ -1,13 +1,21 @@
 #include "center.h"
 
 Center::Center(){
-	this->image = loadImage("data/center.png");
+	#ifdef PS3
+		this->image = loadImage("/dev_hdd0/game/EATER0001/data/center.png");
+	#else
+		this->image = loadImage("data/center.png");
+	#endif
 	this->box.x = 180;
 	this->box.y = 180;
 	this->box.w = 40;
 	this->box.h = 40;
 	this->hurt=new Sound();
-	this->hurt->loadSound("data/sound/hurt.ogg");
+	#ifdef PS3
+		this->hurt->loadSound("/dev_hdd0/game/EATER0001/data/sound/hurt.ogg");
+	#else
+		this->hurt->loadSound("data/sound/hurt.ogg");
+	#endif
 	this->hurt->setVolume(SFX,30);
 }
 

@@ -2,7 +2,11 @@
 
 Stream::Stream(int id){
 	this->id = id;
-	this->image = loadImage("data/stream.png");
+	#ifdef PS3
+		this->image = loadImage("/dev_hdd0/game/EATER0001/data/stream.png");
+	#else
+		this->image = loadImage("data/stream.png");
+	#endif
 	
 	switch(this->id){
 		case 1:

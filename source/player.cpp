@@ -2,7 +2,11 @@
 #include "util.h"
 
 Player::Player(){
-	this->image = loadImage("data/player.png");
+	#ifdef PS3
+		this->image = loadImage("/dev_hdd0/game/EATER0001/data/player.png");
+	#else
+		this->image = loadImage("data/player.png");
+	#endif
 	
 	this->box.w = 30;
 	this->box.h = 30;

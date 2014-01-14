@@ -16,6 +16,10 @@
 #include "enemy.h"
 #include "healthbar.h"
 
+#ifdef PS3
+	#include <io/pad.h>
+#endif
+
 class Game{
 
 	SDL_Surface* screen; //The game screen
@@ -45,6 +49,12 @@ class Game{
 
 	int *currentStatus;
 	int scoreCount;
+
+#ifdef PS3
+	padInfo padinfo;
+  	padData paddata;
+#endif
+  	
 public:
 	Game(SDL_Surface * screen, int *state);
 	~Game();
