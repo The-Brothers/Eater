@@ -90,6 +90,21 @@ void Game::run(){
 		            if(paddata.BTN_LEFT) {
 		            	this->player->move(LEFT);
 		            }
+		            case paddata.BTN_L1:
+	            		this->stream1->insertEnemy();
+	            	break;
+
+	            	case paddata.BTN_L2:
+	            		this->stream2->insertEnemy();
+	            	break;
+
+	            	case paddata.BTN_R1:
+	            		this->stream3->insertEnemy();
+	            	break;
+
+	            	case paddata.BTN_R2:
+	            		this->stream4->insertEnemy();
+	            	break;
 		           
 		        }
 		    }
