@@ -13,6 +13,8 @@ TODO
 	[ ] HUD
 	[ ] Pause
 	[ ] Level progression
+	[ ] Animate Center
+	[ ] Animate Enemies
 
 
 Changelog:
