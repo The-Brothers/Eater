@@ -10,7 +10,6 @@
 
 class Player{
 	SDL_Surface* image;
-	
 
 	int pos;
 public:
