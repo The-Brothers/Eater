@@ -33,6 +33,8 @@ Changelog:
 		- health bar
 	- 0.7 -
 		- game states
+	- 0.8 -
+		- PS3 PORT
 	
 ---------
 
