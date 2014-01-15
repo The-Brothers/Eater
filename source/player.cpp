@@ -1,5 +1,4 @@
 #include "player.h"
-#include "util.h"
 
 Player::Player(){
 	#ifdef PS3

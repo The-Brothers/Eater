@@ -1,10 +1,5 @@
 #include "video.h"
-#include "util.h"
-#include <iostream>
-#include <string>
-#include "text.h"
 
-#include <iostream>
 using namespace std;
 
 Video::Video(){

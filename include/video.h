@@ -2,6 +2,10 @@
 #define VIDEO_H
 
 #include "SDL/SDL.h"
+#include "util.h"
+#include <iostream>
+#include <string>
+#include "text.h"
 
 #define SCREEN_W 400
 #define SCREEN_H 400

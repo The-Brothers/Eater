@@ -2,6 +2,7 @@
 #define PLAYER_H
 
 #include <SDL/SDL.h>
+#include "util.h"
 
 #define UP 1
 #define DOWN 2

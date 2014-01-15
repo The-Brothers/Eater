@@ -1,6 +1,5 @@
 #include "sound.h"
 
-#include <iostream>
 using namespace std;
 
 Sound::Sound(){

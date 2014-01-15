@@ -1,10 +1,5 @@
 #include "gui.h"
-#include "util.h"
-#include <iostream>
-#include <string>
-#include "text.h"
 
-#include <iostream>
 using namespace std;
 
 Gui::Gui(SDL_Surface * screen, int *state){

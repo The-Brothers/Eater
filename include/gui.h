@@ -9,6 +9,10 @@
 #include "text.h"
 
 #include "sound.h"
+#include "util.h"
+#include <iostream>
+#include <string>
+
 
 #ifdef PS3
 	#include <io/pad.h>

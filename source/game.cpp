@@ -1,10 +1,5 @@
 #include "game.h"
-#include "util.h"
-#include <iostream>
-#include <string>
-#include "text.h"
 
-#include <iostream>
 
 #ifdef PS3
 	#include <sysutil/msg.h>

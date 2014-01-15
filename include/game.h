@@ -15,6 +15,11 @@
 #include "stream.h"
 #include "enemy.h"
 #include "healthbar.h"
+#include "util.h"
+
+
+#include <iostream>
+#include <string>
 
 #ifdef PS3
 	#include <io/pad.h>

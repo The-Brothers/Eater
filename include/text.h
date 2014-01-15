@@ -5,6 +5,7 @@
 #include "SDL/SDL_ttf.h"
 
 #include <string>
+#include <iostream>
 
 enum Color{
 	RED,

@@ -3,6 +3,8 @@
 
 #include <SDL/SDL.h>
 #include "SDL/SDL_mixer.h"
+
+#include <iostream>
 class Sound{
 
 	Mix_Chunk *music;
