@@ -1,6 +1,7 @@
 Eater 
 ==========
-Eating game where you have to eat the balls so they dont hit the thing you want to protect, because yes.
+
+Eater is an arcade game and the goal is to make as many points as possible. You are a soldier lost in the forest and its provisions to survive boil down to a steak. But the forest is dark and full of terrors. Carnivorous animals smelled of his grand steak and it's up to you to defend it to survive. Defeat the largest possible number of enemies before succumbing to his advances.
 
 Authors
 -------
