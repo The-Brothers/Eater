@@ -13,6 +13,7 @@
 *.a
 
 # The binary file and the build folder
+Eater
 eater
 build/
 
