@@ -15,6 +15,7 @@ TODO
 	[ ] Level progression
 	[ ] Animate Center
 	[ ] Animate Enemies
+	[ ] Animate Player
 
 
 Changelog:

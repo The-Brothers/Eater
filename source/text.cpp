@@ -89,7 +89,11 @@ void Text::setShadedColor(Color _color){
 
 void Text::setFontSize(int size){
 	this->fontsize = size;
-	this->font = TTF_OpenFont("data/Arista.ttf",this->fontsize);
+	#ifdef PS3
+		this->font = TTF_OpenFont("/dev_hdd0/game/EATER0001/data/Arista.ttf",this->fontsize);
+	#else
+		this->font = TTF_OpenFont("data/Arista.ttf",this->fontsize);
+	#endif
 }
 
 void Text::setFont(string _fontpath){

@@ -11,29 +11,22 @@ SDL_Surface * loadImage(const char* img){
 	SDL_Surface * optimizedImage =  NULL;
 	
 	// Carrega a imagem
-	//cout << "Abrindo: " << img.c_str() << endl;
 	loadedImage = IMG_Load(img);
-	//loadedImage = SDL_LoadBMP(img.c_str());
-	
+		
 	// Se a imagem foi carregada
 	if(!loadedImage)
 	{
 		cout << "Erro ao abrir: " << SDL_GetError() << endl;
 		return NULL;
 	}
-	//cout << "Aberta com sucesso!" << endl;
+	
 	// Cria a imagem otimizada
-    optimizedImage = SDL_DisplayFormatAlpha(loadedImage);
+  optimizedImage = SDL_DisplayFormatAlpha(loadedImage);
+   
+  // Libera a imagem antiga da memória
+  SDL_FreeSurface(loadedImage);
     
-    // Libera a imagem antiga da memória
-    SDL_FreeSurface(loadedImage);
-    
-    // Fazer o colorKey
-    //Uint32 colorkey = SDL_MapRGB(optimizedImage->format,0x00,0xff,0xfc);
-    //Uint32 colorkey = SDL_MapRGB(optimizedImage->format,0xff,0x00,0xff);
-    //SDL_SetColorKey(optimizedImage, SDL_SRCCOLORKEY, colorkey);
-
-    return optimizedImage;
+  return optimizedImage;
 }
 
 bool handleColision(SDL_Rect box1, SDL_Rect box2){
@@ -64,15 +57,11 @@ SDL_Surface *flipImage( SDL_Surface *surface, int flags ){
     SDL_Surface *flipped = NULL;
 
     //If the image is color keyed
-    if( surface->flags & SDL_SRCCOLORKEY ){
+    if( surface->flags & SDL_SRCCOLORKEY )
         flipped = SDL_CreateRGBSurface( SDL_SWSURFACE, surface->w, surface->h, surface->format->BitsPerPixel, surface->format->Rmask, surface->format->Gmask, surface->format->Bmask, 0 );
-    }
-    //Otherwise
-    else{
+    else
         flipped = SDL_CreateRGBSurface( SDL_SWSURFACE, surface->w, surface->h, surface->format->BitsPerPixel, surface->format->Rmask, surface->format->Gmask, surface->format->Bmask, surface->format->Amask );
-    }
- 
-    //If the surface must be locked
+      //If the surface must be locked
     if( SDL_MUSTLOCK( surface ) ){
         //Lock the surface
         SDL_LockSurface( surface );
